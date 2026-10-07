@@ -1,0 +1,83 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   Tokens. Os 8 primeiros vem do :root do original; o resto eram valores
+   hard-coded espalhados pelo site.css que foram promovidos a token.
+   Referencia: levantamento-trf/06-analise/08-design-system.md §1
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* cores — originais */
+  --black: #000;
+  --green: #c0ff00;
+  --grey: #c0c0c0;
+  --white: #eeeeee; /* NAO e #fff — as secoes claras sao off-white */
+  --s900: #0a0a0a;
+  --s800: #141414;
+  --s700: #1f1f1f;
+  --t2: #4a4a4a;
+
+  /* cores que estavam soltas no CSS original */
+  --s950: #050505; /* .entry-b, .entry-card, ol.process */
+  --s960: #070707; /* a.plat */
+  --hover-dark: #111; /* a.ind:hover, linha de tabela escura */
+  --green-hover: #d4ff4d; /* .btn.pri:hover */
+  --ink: #1c1c1c; /* corpo de texto em secao clara */
+  --warn: #ffc83d;
+  --err: #ff5a5a;
+  --err-bg: #2a0000;
+  --hint: #9a9a9a;
+
+  /* linhas e veus sobre escuro */
+  --line-dark: rgba(255, 255, 255, 0.12);
+  --line-dark-soft: rgba(255, 255, 255, 0.08);
+  --line-dark-faint: rgba(255, 255, 255, 0.06);
+  --green-soft: rgba(192, 255, 0, 0.55);
+  --on-dark: rgba(255, 255, 255, 0.74); /* cor de corpo padrao sobre escuro */
+  --on-dark-soft: rgba(255, 255, 255, 0.8);
+
+  /* tipografia */
+  --display: 'Hubot Sans', Arial, sans-serif;
+  --body: 'Host Grotesk', Arial, Helvetica, sans-serif;
+
+  /* chanfro — a escala real do site, nomeada */
+  --ch-xs: 8px;
+  --ch: 12px;
+  --ch-sm: 14px;
+  --ch-md: 18px;
+  --ch-lg: 22px;
+  --ch-xl: 26px;
+
+  /* layout */
+  --wrap: 1320px;
+  --gutter: 20px;
+  --hdr: 101px; /* altura do header — usada pelo video do hero */
+  --sticky-top: 130px; /* .split-img sticky */
+
+  --z-header: 50;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 40px;
+  }
+}
+
+@media (max-width: 1260px) {
+  :root {
+    --hdr: 81px;
+  }
+}
+
+/* ── chanfro: o elemento assinatura do site ────────────────────────────────
+   Canto superior direito cortado em 45°. 34 ocorrencias no original, em 9
+   tamanhos. Nunca escrever o polygon() na mao — usar estas classes.
+   ATENCAO: clip-path corta box-shadow e outline. Para ter sombra + chanfro,
+   use dois elementos: o externo com a sombra, o interno com o chanfro
+   (e o que o original faz em .entry > .entry-card).
+   ───────────────────────────────────────────────────────────────────────── */
+
+.ch-xs { clip-path: polygon(0 0, calc(100% - 8px)  0, 100% 8px,  100% 100%, 0 100%); }
+.ch    { clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); }
+.ch-sm { clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%); }
+.ch-md { clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%); }
+.ch-lg { clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%); }
+.ch-xl { clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%); }

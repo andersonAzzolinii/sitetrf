@@ -1,0 +1,14 @@
+{
+  "--black": "#000",
+  "--green": "#C0FF00",
+  "--grey": "#C0C0C0",
+  "--white": "#EEEEEE",
+  "--s900": "#0A0A0A",
+  "--s800": "#141414",
+  "--s700": "#1F1F1F",
+  "--t2": "#4A4A4A",
+  "--display": "\"Hubot Sans\",Arial,sans-serif",
+  "--body": "\"Host Grotesk\",Arial,Helvetica,sans-serif",
+  "--ch": "12px",
+  "--ch-sm": "8px"
+}

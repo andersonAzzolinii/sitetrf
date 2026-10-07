@@ -1,0 +1,543 @@
+/* ---------------------------------------------------------------------------
+   Blocos da home: H1 + numeros, faixa de beneficios, pontos do produto,
+   TRF+Torfresma, eventos, redes.
+   --------------------------------------------------------------------------- */
+
+/* ---- H1 abaixo dos cards + os 4 numeros --------------------------------- */
+
+.home-title {
+  background: #000;
+  color: #fff;
+  padding: 56px 0 8px;
+  position: relative;
+}
+
+.home-title .home-h1 {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 26ch;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2rem, 4.2vw, 3.8rem);
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+ul.home-nums {
+  list-style: none;
+  margin: 44px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line-dark);
+}
+
+li.home-num {
+  padding: 34px 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+li.home-num:first-child {
+  border-left: 0;
+}
+
+.home-num-v {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 4.4vw, 3.8rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--green);
+  font-variant-numeric: tabular-nums;
+}
+
+.home-num-l {
+  margin: 12px auto 0;
+  color: var(--grey);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  max-width: 24ch;
+}
+
+@media (max-width: 700px) {
+  .home-title {
+    padding-top: 40px;
+  }
+  ul.home-nums {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+  }
+  li.home-num {
+    padding: 22px 10px;
+  }
+  li.home-num:nth-child(odd) {
+    border-left: 0;
+  }
+  li.home-num:nth-child(n + 3) {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ---- faixa de beneficios: 5 caixas centradas ---------------------------- */
+
+.benefits {
+  background: #000;
+  color: #fff;
+  padding: 44px 0;
+  /* as bordas vem da declaracao original e sobreviveram ao patch que trocou
+     o fundo para #000 — valem 2px na altura da faixa */
+  border-top: 1px solid var(--line-dark-faint);
+  border-bottom: 1px solid var(--line-dark-faint);
+}
+
+.ben-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.ben {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 16px;
+  padding: 30px 18px;
+  border: 1px solid var(--line-dark);
+  background: var(--s900);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+}
+
+.ben .ico,
+.ben .ico svg {
+  width: 56px;
+  height: 56px;
+}
+
+.ico {
+  flex: none;
+  color: var(--green);
+}
+
+.ben-h {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.ben-p {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+  color: var(--grey);
+  line-height: 1.45;
+}
+
+.ben-p a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-underline-offset: 3px;
+}
+
+/* a quebra da faixa foi calibrada por QA: 5 -> 3 -> 2 -> 1, com os
+   grid-column: span 2 centralizando as sobras */
+@media (max-width: 1100px) {
+  .ben-row {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .ben {
+    grid-column: span 2;
+  }
+  .ben:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .ben-row {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  .ben,
+  .ben:nth-child(4) {
+    grid-column: span 2;
+  }
+  .ben:nth-child(5) {
+    grid-column: 2 / span 2;
+  }
+  .ben {
+    padding: 22px 12px;
+    gap: 12px;
+  }
+  .ben .ico,
+  .ben .ico svg {
+    width: 44px;
+    height: 44px;
+  }
+  .ben-h {
+    font-size: 0.98rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ben-row .ben:nth-child(5) {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 360px) {
+  .ben-row {
+    grid-template-columns: 1fr;
+  }
+  .ben,
+  .ben:nth-child(4),
+  .ben:nth-child(5) {
+    grid-column: auto;
+  }
+}
+
+/* ---- pontos do produto (P02): 4 itens horizontais ----------------------- */
+
+.pp {
+  background: var(--s800);
+  color: #fff;
+  border-top: 1px solid var(--line-dark-faint);
+  border-bottom: 1px solid var(--line-dark-faint);
+}
+
+.pp-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pp-i {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 30px 22px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pp-i:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.pp .ico,
+.pp .ico svg {
+  width: 30px;
+  height: 30px;
+}
+
+.pp-h {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.08rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.pp-p {
+  margin: 6px 0 0;
+  font-size: 0.86rem;
+  color: var(--grey);
+  line-height: 1.45;
+}
+
+@media (max-width: 1000px) {
+  .pp-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pp-i:nth-child(3) {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .pp-row {
+    grid-template-columns: 1fr;
+  }
+  .pp-i {
+    border-left: 0;
+    padding: 20px 0;
+    border-top: 1px solid var(--line-dark-soft);
+  }
+  .pp-i:first-child {
+    border-top: 0;
+  }
+}
+
+/* ---- TRF + Torfresma ---------------------------------------------------- */
+
+.sec.parent {
+  background: #000;
+  color: #fff;
+  padding: 110px 0;
+}
+
+.parent-in {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 56px;
+  align-items: start;
+  position: relative;
+}
+
+.parent-in h2 {
+  margin: 0 0 28px;
+  max-width: 16ch;
+}
+
+.parent-in p {
+  color: var(--on-dark);
+  max-width: 52ch;
+  margin: 0 0 24px;
+}
+
+.parent-txt p {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  max-width: 60ch;
+}
+
+ul.parent-facts {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+ul.parent-facts li {
+  padding: 18px 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: var(--s900);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--on-dark);
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+ul.parent-facts b {
+  display: block;
+  font-family: var(--display);
+  font-size: 1.05rem;
+  color: var(--green);
+  margin-bottom: 6px;
+}
+
+/* Atencao: o `.parent-in` NAO colapsa em 1100px.
+   No original a regra `@media(max-width:1100px){.parent-in{1fr}}` existe, mas
+   o patch H18 redeclara `.parent-in{grid-template-columns:.9fr 1.1fr}` depois
+   e SEM media query — e media query nao aumenta especificidade, entao o patch
+   vence em toda largura. O colapso real so acontece em 700px. */
+@media (max-width: 1100px) {
+  ul.parent-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .sec.parent {
+    padding: 72px 0;
+  }
+  .parent-in {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* ---- eventos ------------------------------------------------------------ */
+
+.sec.events {
+  padding: 80px 0;
+}
+
+.sec.events h2 {
+  margin-bottom: 32px;
+}
+
+ul.ev-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+li.ev {
+  display: grid;
+  grid-template-columns: 200px 1.3fr 1.5fr auto;
+  gap: 28px;
+  align-items: center;
+  padding: 24px 28px;
+  background: #000;
+  color: #fff;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+}
+
+.ev-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 112px;
+  padding: 12px;
+  background: #fff;
+}
+
+.ev-logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 96px;
+  width: auto;
+  display: block;
+}
+
+.ev-info h3 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.ev-info p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--grey);
+}
+
+dl.ev-facts {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.ev-facts div {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 12px;
+  font-size: 0.92rem;
+}
+
+.ev-facts dt {
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  padding-top: 3px;
+}
+
+.ev-facts dd {
+  margin: 0;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  li.ev {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .ev-logo {
+    grid-column: 1 / -1;
+    justify-self: start;
+    min-width: 200px;
+  }
+  li.ev .btn {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 700px) {
+  li.ev {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .ev-facts div {
+    grid-template-columns: 70px 1fr;
+  }
+  li.ev .btn {
+    width: 100%;
+  }
+}
+
+/* ---- redes sociais em destaque ------------------------------------------ */
+
+.follow-in {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.follow h2 {
+  margin: 0 0 10px;
+}
+
+.follow p {
+  color: var(--on-dark-soft);
+  margin: 0;
+}
+
+ul.social.big {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+ul.social.big a {
+  width: 100%;
+  height: 64px;
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0 20px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+ul.social.big svg {
+  width: 22px;
+  height: 22px;
+  color: var(--green);
+}
+
+@media (max-width: 800px) {
+  .follow-in {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* o "T" da marca atras do bloco TRF+Torfresma */
+.parent-t {
+  position: absolute;
+  left: -120px;
+  top: -150px;
+  width: 360px;
+  color: var(--green);
+  opacity: 0.28;
+  pointer-events: none;
+  display: block;
+}
+
+
+/* `.parent-in p {margin:0 0 24px}` acima venceria o `p.go-row` generico
+   (buttons.css vem antes). No original isto era um !important. */
+.parent-txt p.go-row {
+  margin: 18px 0 0;
+}

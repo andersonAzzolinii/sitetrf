@@ -1,0 +1,3300 @@
+[
+ {
+  "url": "https://trfautomation.com/about/careers/",
+  "file": "pages\\about\\careers\\index.html",
+  "status": 200,
+  "bytes": 26668,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/about/careers.md",
+  "file": "content\\about\\careers.md",
+  "status": 200,
+  "bytes": 2670,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/about/compliance/",
+  "file": "pages\\about\\compliance\\index.html",
+  "status": 200,
+  "bytes": 27552,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/about/compliance.md",
+  "file": "content\\about\\compliance.md",
+  "status": 200,
+  "bytes": 3577,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/about/",
+  "file": "pages\\about\\index.html",
+  "status": 200,
+  "bytes": 38415,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/about.md",
+  "file": "content\\about.md",
+  "status": 200,
+  "bytes": 7210,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/bag-case-packer/",
+  "file": "pages\\case-packing\\bag-case-packer\\index.html",
+  "status": 200,
+  "bytes": 47897,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/bag-case-packer.md",
+  "file": "content\\case-packing\\bag-case-packer.md",
+  "status": 200,
+  "bytes": 12951,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/carton-case-packer/",
+  "file": "pages\\case-packing\\carton-case-packer\\index.html",
+  "status": 200,
+  "bytes": 45096,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/carton-case-packer.md",
+  "file": "content\\case-packing\\carton-case-packer.md",
+  "status": 200,
+  "bytes": 11457,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/cup-and-tub-case-packer/",
+  "file": "pages\\case-packing\\cup-and-tub-case-packer\\index.html",
+  "status": 200,
+  "bytes": 44235,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/cup-and-tub-case-packer.md",
+  "file": "content\\case-packing\\cup-and-tub-case-packer.md",
+  "status": 200,
+  "bytes": 10951,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/drop-packer/",
+  "file": "pages\\case-packing\\drop-packer\\index.html",
+  "status": 200,
+  "bytes": 54582,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/drop-packer.md",
+  "file": "content\\case-packing\\drop-packer.md",
+  "status": 200,
+  "bytes": 11829,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/flow-wrap-case-packer/",
+  "file": "pages\\case-packing\\flow-wrap-case-packer\\index.html",
+  "status": 200,
+  "bytes": 43993,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/flow-wrap-case-packer.md",
+  "file": "content\\case-packing\\flow-wrap-case-packer.md",
+  "status": 200,
+  "bytes": 11027,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/integrated-case-packer/",
+  "file": "pages\\case-packing\\integrated-case-packer\\index.html",
+  "status": 200,
+  "bytes": 55488,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/integrated-case-packer.md",
+  "file": "content\\case-packing\\integrated-case-packer.md",
+  "status": 200,
+  "bytes": 12107,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/pillow-bag-case-packer/",
+  "file": "pages\\case-packing\\pillow-bag-case-packer\\index.html",
+  "status": 200,
+  "bytes": 46289,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/pillow-bag-case-packer.md",
+  "file": "content\\case-packing\\pillow-bag-case-packer.md",
+  "status": 200,
+  "bytes": 11850,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/pouch-case-packer/",
+  "file": "pages\\case-packing\\pouch-case-packer\\index.html",
+  "status": 200,
+  "bytes": 45876,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/pouch-case-packer.md",
+  "file": "content\\case-packing\\pouch-case-packer.md",
+  "status": 200,
+  "bytes": 11549,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/robotic-case-packer/",
+  "file": "pages\\case-packing\\robotic-case-packer\\index.html",
+  "status": 200,
+  "bytes": 57827,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/robotic-case-packer.md",
+  "file": "content\\case-packing\\robotic-case-packer.md",
+  "status": 200,
+  "bytes": 13215,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/thermoformed-package-case-packer/",
+  "file": "pages\\case-packing\\thermoformed-package-case-packer\\index.html",
+  "status": 200,
+  "bytes": 47689,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/thermoformed-package-case-packer.md",
+  "file": "content\\case-packing\\thermoformed-package-case-packer.md",
+  "status": 200,
+  "bytes": 12697,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/top-load-case-packer/",
+  "file": "pages\\case-packing\\top-load-case-packer\\index.html",
+  "status": 200,
+  "bytes": 48771,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/top-load-case-packer.md",
+  "file": "content\\case-packing\\top-load-case-packer.md",
+  "status": 200,
+  "bytes": 13094,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/tray-packer/",
+  "file": "pages\\case-packing\\tray-packer\\index.html",
+  "status": 200,
+  "bytes": 44671,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/tray-packer.md",
+  "file": "content\\case-packing\\tray-packer.md",
+  "status": 200,
+  "bytes": 11420,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing/",
+  "file": "pages\\case-packing\\index.html",
+  "status": 200,
+  "bytes": 53645,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/case-packing.md",
+  "file": "content\\case-packing.md",
+  "status": 200,
+  "bytes": 15658,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/contact/",
+  "file": "pages\\contact\\index.html",
+  "status": 200,
+  "bytes": 26208,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/contact.md",
+  "file": "content\\contact.md",
+  "status": 200,
+  "bytes": 1907,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/accumulation-and-flow-control/",
+  "file": "pages\\conveyor-systems\\accumulation-and-flow-control\\index.html",
+  "status": 200,
+  "bytes": 44730,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/accumulation-and-flow-control.md",
+  "file": "content\\conveyor-systems\\accumulation-and-flow-control.md",
+  "status": 200,
+  "bytes": 11928,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/case-conveyor-intralogistics/",
+  "file": "pages\\conveyor-systems\\case-conveyor-intralogistics\\index.html",
+  "status": 200,
+  "bytes": 56443,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/case-conveyor-intralogistics.md",
+  "file": "content\\conveyor-systems\\case-conveyor-intralogistics.md",
+  "status": 200,
+  "bytes": 13590,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/curves-and-transfers/",
+  "file": "pages\\conveyor-systems\\curves-and-transfers\\index.html",
+  "status": 200,
+  "bytes": 42086,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/curves-and-transfers.md",
+  "file": "content\\conveyor-systems\\curves-and-transfers.md",
+  "status": 200,
+  "bytes": 11531,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/elevation-conveyors/",
+  "file": "pages\\conveyor-systems\\elevation-conveyors\\index.html",
+  "status": 200,
+  "bytes": 44502,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/elevation-conveyors.md",
+  "file": "content\\conveyor-systems\\elevation-conveyors.md",
+  "status": 200,
+  "bytes": 11952,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/end-of-line-integration/",
+  "file": "pages\\conveyor-systems\\end-of-line-integration\\index.html",
+  "status": 200,
+  "bytes": 51228,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/end-of-line-integration.md",
+  "file": "content\\conveyor-systems\\end-of-line-integration.md",
+  "status": 200,
+  "bytes": 15215,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor/dry/",
+  "file": "pages\\conveyor-systems\\hygienic-food-conveyor\\dry\\index.html",
+  "status": 200,
+  "bytes": 45805,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor/dry.md",
+  "file": "content\\conveyor-systems\\hygienic-food-conveyor\\dry.md",
+  "status": 200,
+  "bytes": 10915,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor/washdown/",
+  "file": "pages\\conveyor-systems\\hygienic-food-conveyor\\washdown\\index.html",
+  "status": 200,
+  "bytes": 52039,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor/washdown.md",
+  "file": "content\\conveyor-systems\\hygienic-food-conveyor\\washdown.md",
+  "status": 200,
+  "bytes": 14201,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor/",
+  "file": "pages\\conveyor-systems\\hygienic-food-conveyor\\index.html",
+  "status": 200,
+  "bytes": 50389,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/hygienic-food-conveyor.md",
+  "file": "content\\conveyor-systems\\hygienic-food-conveyor.md",
+  "status": 200,
+  "bytes": 10815,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/merge-divert-and-sorting/",
+  "file": "pages\\conveyor-systems\\merge-divert-and-sorting\\index.html",
+  "status": 200,
+  "bytes": 43346,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/merge-divert-and-sorting.md",
+  "file": "content\\conveyor-systems\\merge-divert-and-sorting.md",
+  "status": 200,
+  "bytes": 10995,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/straight-conveying/",
+  "file": "pages\\conveyor-systems\\straight-conveying\\index.html",
+  "status": 200,
+  "bytes": 43006,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/straight-conveying.md",
+  "file": "content\\conveyor-systems\\straight-conveying.md",
+  "status": 200,
+  "bytes": 11337,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems/",
+  "file": "pages\\conveyor-systems\\index.html",
+  "status": 200,
+  "bytes": 47785,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/conveyor-systems.md",
+  "file": "content\\conveyor-systems.md",
+  "status": 200,
+  "bytes": 14344,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/",
+  "file": "pages\\index.html",
+  "status": 200,
+  "bytes": 62285,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/index.md",
+  "file": "content\\index.md",
+  "status": 200,
+  "bytes": 6010,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/bakery-and-snacks/",
+  "file": "pages\\industries\\bakery-and-snacks\\index.html",
+  "status": 200,
+  "bytes": 49106,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/bakery-and-snacks.md",
+  "file": "content\\industries\\bakery-and-snacks.md",
+  "status": 200,
+  "bytes": 12516,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/beverage/",
+  "file": "pages\\industries\\beverage\\index.html",
+  "status": 200,
+  "bytes": 44919,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/beverage.md",
+  "file": "content\\industries\\beverage.md",
+  "status": 200,
+  "bytes": 11405,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/chemicals/",
+  "file": "pages\\industries\\chemicals\\index.html",
+  "status": 200,
+  "bytes": 44658,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/chemicals.md",
+  "file": "content\\industries\\chemicals.md",
+  "status": 200,
+  "bytes": 11007,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/co-packers/",
+  "file": "pages\\industries\\co-packers\\index.html",
+  "status": 200,
+  "bytes": 47799,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/co-packers.md",
+  "file": "content\\industries\\co-packers.md",
+  "status": 200,
+  "bytes": 12927,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/confectionery/",
+  "file": "pages\\industries\\confectionery\\index.html",
+  "status": 200,
+  "bytes": 47708,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/confectionery.md",
+  "file": "content\\industries\\confectionery.md",
+  "status": 200,
+  "bytes": 11615,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/consumer-packaged-goods/",
+  "file": "pages\\industries\\consumer-packaged-goods\\index.html",
+  "status": 200,
+  "bytes": 50219,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/consumer-packaged-goods.md",
+  "file": "content\\industries\\consumer-packaged-goods.md",
+  "status": 200,
+  "bytes": 13838,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/dairy-and-cheese/",
+  "file": "pages\\industries\\dairy-and-cheese\\index.html",
+  "status": 200,
+  "bytes": 49146,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/dairy-and-cheese.md",
+  "file": "content\\industries\\dairy-and-cheese.md",
+  "status": 200,
+  "bytes": 12242,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/e-commerce-and-distribution/",
+  "file": "pages\\industries\\e-commerce-and-distribution\\index.html",
+  "status": 200,
+  "bytes": 46327,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/e-commerce-and-distribution.md",
+  "file": "content\\industries\\e-commerce-and-distribution.md",
+  "status": 200,
+  "bytes": 12167,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/food-processing/",
+  "file": "pages\\industries\\food-processing\\index.html",
+  "status": 200,
+  "bytes": 52311,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/food-processing.md",
+  "file": "content\\industries\\food-processing.md",
+  "status": 200,
+  "bytes": 14400,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/frozen-food-and-ice-cream/",
+  "file": "pages\\industries\\frozen-food-and-ice-cream\\index.html",
+  "status": 200,
+  "bytes": 50626,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/frozen-food-and-ice-cream.md",
+  "file": "content\\industries\\frozen-food-and-ice-cream.md",
+  "status": 200,
+  "bytes": 12773,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/household-and-cleaning-products/",
+  "file": "pages\\industries\\household-and-cleaning-products\\index.html",
+  "status": 200,
+  "bytes": 48758,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/household-and-cleaning-products.md",
+  "file": "content\\industries\\household-and-cleaning-products.md",
+  "status": 200,
+  "bytes": 13107,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/paper-and-packaging/",
+  "file": "pages\\industries\\paper-and-packaging\\index.html",
+  "status": 200,
+  "bytes": 44474,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/paper-and-packaging.md",
+  "file": "content\\industries\\paper-and-packaging.md",
+  "status": 200,
+  "bytes": 11141,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/personal-care-and-cosmetics/",
+  "file": "pages\\industries\\personal-care-and-cosmetics\\index.html",
+  "status": 200,
+  "bytes": 49176,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/personal-care-and-cosmetics.md",
+  "file": "content\\industries\\personal-care-and-cosmetics.md",
+  "status": 200,
+  "bytes": 13019,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/pet-food/",
+  "file": "pages\\industries\\pet-food\\index.html",
+  "status": 200,
+  "bytes": 48699,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/pet-food.md",
+  "file": "content\\industries\\pet-food.md",
+  "status": 200,
+  "bytes": 12537,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/pharmaceutical/",
+  "file": "pages\\industries\\pharmaceutical\\index.html",
+  "status": 200,
+  "bytes": 48421,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/pharmaceutical.md",
+  "file": "content\\industries\\pharmaceutical.md",
+  "status": 200,
+  "bytes": 13141,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/protein-processing/",
+  "file": "pages\\industries\\protein-processing\\index.html",
+  "status": 200,
+  "bytes": 43563,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries/protein-processing.md",
+  "file": "content\\industries\\protein-processing.md",
+  "status": 200,
+  "bytes": 9731,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/industries/",
+  "file": "pages\\industries\\index.html",
+  "status": 200,
+  "bytes": 55672,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/industries.md",
+  "file": "content\\industries.md",
+  "status": 200,
+  "bytes": 16392,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/locations/",
+  "file": "pages\\locations\\index.html",
+  "status": 200,
+  "bytes": 34201,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/locations.md",
+  "file": "content\\locations.md",
+  "status": 200,
+  "bytes": 5809,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/parts-and-service/",
+  "file": "pages\\parts-and-service\\index.html",
+  "status": 200,
+  "bytes": 36837,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/parts-and-service.md",
+  "file": "content\\parts-and-service.md",
+  "status": 200,
+  "bytes": 4590,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/privacy-choices/",
+  "file": "pages\\privacy-choices\\index.html",
+  "status": 200,
+  "bytes": 25313,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/privacy-choices.md",
+  "file": "content\\privacy-choices.md",
+  "status": 200,
+  "bytes": 2262,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/privacy-policy/",
+  "file": "pages\\privacy-policy\\index.html",
+  "status": 200,
+  "bytes": 53938,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/privacy-policy.md",
+  "file": "content\\privacy-policy.md",
+  "status": 200,
+  "bytes": 25765,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/blog/how-much-does-a-robotic-palletizer-cost/",
+  "file": "pages\\resources\\blog\\how-much-does-a-robotic-palletizer-cost\\index.html",
+  "status": 200,
+  "bytes": 51277,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/blog/how-much-does-a-robotic-palletizer-cost.md",
+  "file": "content\\resources\\blog\\how-much-does-a-robotic-palletizer-cost.md",
+  "status": 200,
+  "bytes": 14563,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/blog/",
+  "file": "pages\\resources\\blog\\index.html",
+  "status": 200,
+  "bytes": 32325,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/blog.md",
+  "file": "content\\resources\\blog.md",
+  "status": 200,
+  "bytes": 4831,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/avon/",
+  "file": "pages\\resources\\case-studies\\avon\\index.html",
+  "status": 200,
+  "bytes": 38670,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/avon.md",
+  "file": "content\\resources\\case-studies\\avon.md",
+  "status": 200,
+  "bytes": 7984,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/custom-foods/",
+  "file": "pages\\resources\\case-studies\\custom-foods\\index.html",
+  "status": 200,
+  "bytes": 40862,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/custom-foods.md",
+  "file": "content\\resources\\case-studies\\custom-foods.md",
+  "status": 200,
+  "bytes": 8936,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/lodge-cast-iron/",
+  "file": "pages\\resources\\case-studies\\lodge-cast-iron\\index.html",
+  "status": 200,
+  "bytes": 37926,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/lodge-cast-iron.md",
+  "file": "content\\resources\\case-studies\\lodge-cast-iron.md",
+  "status": 200,
+  "bytes": 7713,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies/",
+  "file": "pages\\resources\\case-studies\\index.html",
+  "status": 200,
+  "bytes": 35660,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/case-studies.md",
+  "file": "content\\resources\\case-studies.md",
+  "status": 200,
+  "bytes": 5493,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/downloads/",
+  "file": "pages\\resources\\downloads\\index.html",
+  "status": 200,
+  "bytes": 31777,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/downloads.md",
+  "file": "content\\resources\\downloads.md",
+  "status": 200,
+  "bytes": 4558,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/e-books/",
+  "file": "pages\\resources\\e-books\\index.html",
+  "status": 200,
+  "bytes": 31137,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/e-books.md",
+  "file": "content\\resources\\e-books.md",
+  "status": 200,
+  "bytes": 4446,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/trade-shows-and-events/pack-expo-international-2026/",
+  "file": "pages\\resources\\trade-shows-and-events\\pack-expo-international-2026\\index.html",
+  "status": 200,
+  "bytes": 44151,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/trade-shows-and-events/pack-expo-international-2026.md",
+  "file": "content\\resources\\trade-shows-and-events\\pack-expo-international-2026.md",
+  "status": 200,
+  "bytes": 9229,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/trade-shows-and-events/",
+  "file": "pages\\resources\\trade-shows-and-events\\index.html",
+  "status": 200,
+  "bytes": 32178,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/trade-shows-and-events.md",
+  "file": "content\\resources\\trade-shows-and-events.md",
+  "status": 200,
+  "bytes": 4495,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/webinars/",
+  "file": "pages\\resources\\webinars\\index.html",
+  "status": 200,
+  "bytes": 29730,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/webinars.md",
+  "file": "content\\resources\\webinars.md",
+  "status": 200,
+  "bytes": 3543,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/white-papers/",
+  "file": "pages\\resources\\white-papers\\index.html",
+  "status": 200,
+  "bytes": 31786,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources/white-papers.md",
+  "file": "content\\resources\\white-papers.md",
+  "status": 200,
+  "bytes": 4552,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/resources/",
+  "file": "pages\\resources\\index.html",
+  "status": 200,
+  "bytes": 38927,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/resources.md",
+  "file": "content\\resources.md",
+  "status": 200,
+  "bytes": 7884,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bag-palletizer/",
+  "file": "pages\\robotic-palletizing\\bag-palletizer\\index.html",
+  "status": 200,
+  "bytes": 49450,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bag-palletizer.md",
+  "file": "content\\robotic-palletizing\\bag-palletizer.md",
+  "status": 200,
+  "bytes": 13367,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/box-palletizer/",
+  "file": "pages\\robotic-palletizing\\box-palletizer\\index.html",
+  "status": 200,
+  "bytes": 49681,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/box-palletizer.md",
+  "file": "content\\robotic-palletizing\\box-palletizer.md",
+  "status": 200,
+  "bytes": 12791,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bucket-palletizer/",
+  "file": "pages\\robotic-palletizing\\bucket-palletizer\\index.html",
+  "status": 200,
+  "bytes": 48508,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bucket-palletizer.md",
+  "file": "content\\robotic-palletizing\\bucket-palletizer.md",
+  "status": 200,
+  "bytes": 12207,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bundle-palletizer/",
+  "file": "pages\\robotic-palletizing\\bundle-palletizer\\index.html",
+  "status": 200,
+  "bytes": 47071,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/bundle-palletizer.md",
+  "file": "content\\robotic-palletizing\\bundle-palletizer.md",
+  "status": 200,
+  "bytes": 11662,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/carton-palletizer/",
+  "file": "pages\\robotic-palletizing\\carton-palletizer\\index.html",
+  "status": 200,
+  "bytes": 49082,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/carton-palletizer.md",
+  "file": "content\\robotic-palletizing\\carton-palletizer.md",
+  "status": 200,
+  "bytes": 12630,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/case-palletizer/",
+  "file": "pages\\robotic-palletizing\\case-palletizer\\index.html",
+  "status": 200,
+  "bytes": 49840,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/case-palletizer.md",
+  "file": "content\\robotic-palletizing\\case-palletizer.md",
+  "status": 200,
+  "bytes": 13799,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/cobot-palletizer/",
+  "file": "pages\\robotic-palletizing\\cobot-palletizer\\index.html",
+  "status": 200,
+  "bytes": 74214,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/cobot-palletizer.md",
+  "file": "content\\robotic-palletizing\\cobot-palletizer.md",
+  "status": 200,
+  "bytes": 12817,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/compact-palletizer/",
+  "file": "pages\\robotic-palletizing\\compact-palletizer\\index.html",
+  "status": 200,
+  "bytes": 77637,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/compact-palletizer.md",
+  "file": "content\\robotic-palletizing\\compact-palletizer.md",
+  "status": 200,
+  "bytes": 14611,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/custom-palletizer/",
+  "file": "pages\\robotic-palletizing\\custom-palletizer\\index.html",
+  "status": 200,
+  "bytes": 52300,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/custom-palletizer.md",
+  "file": "content\\robotic-palletizing\\custom-palletizer.md",
+  "status": 200,
+  "bytes": 14262,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/drum-palletizer/",
+  "file": "pages\\robotic-palletizing\\drum-palletizer\\index.html",
+  "status": 200,
+  "bytes": 46388,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/drum-palletizer.md",
+  "file": "content\\robotic-palletizing\\drum-palletizer.md",
+  "status": 200,
+  "bytes": 11494,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/high-speed-palletizer/",
+  "file": "pages\\robotic-palletizing\\high-speed-palletizer\\index.html",
+  "status": 200,
+  "bytes": 81412,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/high-speed-palletizer.md",
+  "file": "content\\robotic-palletizing\\high-speed-palletizer.md",
+  "status": 200,
+  "bytes": 16181,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/robotic-palletizer-cost/",
+  "file": "pages\\robotic-palletizing\\robotic-palletizer-cost\\index.html",
+  "status": 200,
+  "bytes": 70833,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/robotic-palletizer-cost.md",
+  "file": "content\\robotic-palletizing\\robotic-palletizer-cost.md",
+  "status": 200,
+  "bytes": 15643,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/subzero-palletizer/",
+  "file": "pages\\robotic-palletizing\\subzero-palletizer\\index.html",
+  "status": 200,
+  "bytes": 54561,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/subzero-palletizer.md",
+  "file": "content\\robotic-palletizing\\subzero-palletizer.md",
+  "status": 200,
+  "bytes": 11081,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/tray-palletizer/",
+  "file": "pages\\robotic-palletizing\\tray-palletizer\\index.html",
+  "status": 200,
+  "bytes": 46798,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/tray-palletizer.md",
+  "file": "content\\robotic-palletizing\\tray-palletizer.md",
+  "status": 200,
+  "bytes": 11864,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing/",
+  "file": "pages\\robotic-palletizing\\index.html",
+  "status": 200,
+  "bytes": 59394,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/robotic-palletizing.md",
+  "file": "content\\robotic-palletizing.md",
+  "status": 200,
+  "bytes": 17559,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/terms-of-use/",
+  "file": "pages\\terms-of-use\\index.html",
+  "status": 200,
+  "bytes": 49832,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/terms-of-use.md",
+  "file": "content\\terms-of-use.md",
+  "status": 200,
+  "bytes": 21966,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/tools/palletizing-roi-calculator/",
+  "file": "pages\\tools\\palletizing-roi-calculator\\index.html",
+  "status": 200,
+  "bytes": 56469,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/tools/palletizing-roi-calculator.md",
+  "file": "content\\tools\\palletizing-roi-calculator.md",
+  "status": 200,
+  "bytes": 7969,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/tools/",
+  "file": "pages\\tools\\index.html",
+  "status": 200,
+  "bytes": 36265,
+  "type": "text/html",
+  "kind": "html"
+ },
+ {
+  "url": "https://trfautomation.com/tools.md",
+  "file": "content\\tools.md",
+  "status": 200,
+  "bytes": 7781,
+  "type": "application/octet-stream",
+  "kind": "md"
+ },
+ {
+  "url": "https://trfautomation.com/assets/apple-touch-icon.png",
+  "file": "assets_site\\assets\\apple-touch-icon.png",
+  "status": 200,
+  "bytes": 2017,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/docs/TRF-Integrity-and-Compliance-Policy-Rev01.pdf",
+  "file": "assets_site\\assets\\docs\\TRF-Integrity-and-Compliance-Policy-Rev01.pdf",
+  "status": 200,
+  "bytes": 3191248,
+  "type": "application/pdf",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/favicon.svg",
+  "file": "assets_site\\assets\\favicon.svg",
+  "status": 200,
+  "bytes": 788,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/fonts/host-grotesk.woff2",
+  "file": "assets_site\\assets\\fonts\\host-grotesk.woff2",
+  "status": 200,
+  "bytes": 20296,
+  "type": "font/woff2",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/fonts/hubot-sans.woff2",
+  "file": "assets_site\\assets\\fonts\\hubot-sans.woff2",
+  "status": 200,
+  "bytes": 48284,
+  "type": "font/woff2",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/Intralox_logo.svg",
+  "file": "assets_site\\assets\\logos\\Intralox_logo.svg",
+  "status": 200,
+  "bytes": 45322,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/Siemens-logo.svg",
+  "file": "assets_site\\assets\\logos\\Siemens-logo.svg",
+  "status": 200,
+  "bytes": 3311,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/abb-value-provider.png",
+  "file": "assets_site\\assets\\logos\\abb-value-provider.png",
+  "status": 200,
+  "bytes": 8563,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/client-avon.svg",
+  "file": "assets_site\\assets\\logos\\client-avon.svg",
+  "status": 200,
+  "bytes": 1062,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/client-custom-foods.png",
+  "file": "assets_site\\assets\\logos\\client-custom-foods.png",
+  "status": 200,
+  "bytes": 13765,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/client-lodge-cast-iron.svg",
+  "file": "assets_site\\assets\\logos\\client-lodge-cast-iron.svg",
+  "status": 200,
+  "bytes": 7779,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/ecovadis-committed-2026.png",
+  "file": "assets_site\\assets\\logos\\ecovadis-committed-2026.png",
+  "status": 200,
+  "bytes": 76594,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/fanuc-authorized-system-integrator.png",
+  "file": "assets_site\\assets\\logos\\fanuc-authorized-system-integrator.png",
+  "status": 200,
+  "bytes": 120800,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/interroll-rolling-on.png",
+  "file": "assets_site\\assets\\logos\\interroll-rolling-on.png",
+  "status": 200,
+  "bytes": 24658,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/kuka-official-system-partner.png",
+  "file": "assets_site\\assets\\logos\\kuka-official-system-partner.png",
+  "status": 200,
+  "bytes": 24835,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/pack-expo-international-logo.png",
+  "file": "assets_site\\assets\\logos\\pack-expo-international-logo.png",
+  "status": 200,
+  "bytes": 14879,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/pmmi-member.png",
+  "file": "assets_site\\assets\\logos\\pmmi-member.png",
+  "status": 200,
+  "bytes": 10620,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/rockwell-gold-oem-partner.png",
+  "file": "assets_site\\assets\\logos\\rockwell-gold-oem-partner.png",
+  "status": 200,
+  "bytes": 21083,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/logos/ul-listed.png",
+  "file": "assets_site\\assets\\logos\\ul-listed.png",
+  "status": 200,
+  "bytes": 12149,
+  "type": "image/png",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-avon-success-1920.webp",
+  "file": "assets_site\\assets\\media\\case-avon-success-1920.webp",
+  "status": 200,
+  "bytes": 329848,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-avon-vertical-lift-1920.webp",
+  "file": "assets_site\\assets\\media\\case-avon-vertical-lift-1920.webp",
+  "status": 200,
+  "bytes": 62552,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-avon-vertical-lift-960.webp",
+  "file": "assets_site\\assets\\media\\case-avon-vertical-lift-960.webp",
+  "status": 200,
+  "bytes": 46834,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-custom-foods-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\case-custom-foods-detail-1920.webp",
+  "status": 200,
+  "bytes": 112210,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-custom-foods-line-1920.webp",
+  "file": "assets_site\\assets\\media\\case-custom-foods-line-1920.webp",
+  "status": 200,
+  "bytes": 324038,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-custom-foods-line-960.webp",
+  "file": "assets_site\\assets\\media\\case-custom-foods-line-960.webp",
+  "status": 200,
+  "bytes": 120146,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-lodge-pallet-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\case-lodge-pallet-detail-1920.webp",
+  "status": 200,
+  "bytes": 152486,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-lodge-pallet-detail-960.webp",
+  "file": "assets_site\\assets\\media\\case-lodge-pallet-detail-960.webp",
+  "status": 200,
+  "bytes": 95806,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-lodge-robot-line-1920.webp",
+  "file": "assets_site\\assets\\media\\case-lodge-robot-line-1920.webp",
+  "status": 200,
+  "bytes": 327868,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-lodge-robot-line-960.webp",
+  "file": "assets_site\\assets\\media\\case-lodge-robot-line-960.webp",
+  "status": 200,
+  "bytes": 130814,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/case-packing-line-delta-robot-960.webp",
+  "file": "assets_site\\assets\\media\\case-packing-line-delta-robot-960.webp",
+  "status": 200,
+  "bytes": 38882,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/conveyor-line-distribution-center-1920.webp",
+  "file": "assets_site\\assets\\media\\conveyor-line-distribution-center-1920.webp",
+  "status": 200,
+  "bytes": 160410,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/conveyor-line-distribution-center-960.webp",
+  "file": "assets_site\\assets\\media\\conveyor-line-distribution-center-960.webp",
+  "status": 200,
+  "bytes": 68034,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/conveyor-line-parcel-flow-1920.webp",
+  "file": "assets_site\\assets\\media\\conveyor-line-parcel-flow-1920.webp",
+  "status": 200,
+  "bytes": 180984,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/conveyor-line-parcel-flow-960.webp",
+  "file": "assets_site\\assets\\media\\conveyor-line-parcel-flow-960.webp",
+  "status": 200,
+  "bytes": 77430,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-end-of-line-flow-diagram.svg",
+  "file": "assets_site\\assets\\media\\trf-end-of-line-flow-diagram.svg",
+  "status": 200,
+  "bytes": 4083,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-full-partner-end-of-line-960.webp",
+  "file": "assets_site\\assets\\media\\trf-full-partner-end-of-line-960.webp",
+  "status": 200,
+  "bytes": 45120,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-home-hero-poster.webp",
+  "file": "assets_site\\assets\\media\\trf-home-hero-poster.webp",
+  "status": 200,
+  "bytes": 118558,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-home-hero.mp4",
+  "file": "assets_site\\assets\\media\\trf-home-hero.mp4",
+  "status": 200,
+  "bytes": 8634163,
+  "type": "video/mp4",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-home-hub-case-packing-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-home-hub-case-packing-1920.webp",
+  "status": 200,
+  "bytes": 192402,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-home-hub-conveyor-systems-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-home-hub-conveyor-systems-1920.webp",
+  "status": 200,
+  "bytes": 296850,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-home-hub-palletizing-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-home-hub-palletizing-1920.webp",
+  "status": 200,
+  "bytes": 329484,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-bakery-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-bakery-1920.webp",
+  "status": 200,
+  "bytes": 244830,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-bakery-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-bakery-960.webp",
+  "status": 200,
+  "bytes": 96930,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-beverage-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-beverage-1920.webp",
+  "status": 200,
+  "bytes": 296850,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-chemicals-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-chemicals-1920.webp",
+  "status": 200,
+  "bytes": 216310,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-chemicals-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-chemicals-960.webp",
+  "status": 200,
+  "bytes": 96968,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-confectionery-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-confectionery-1920.webp",
+  "status": 200,
+  "bytes": 138670,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-confectionery-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-confectionery-960.webp",
+  "status": 200,
+  "bytes": 67558,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-copackers-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-copackers-1920.webp",
+  "status": 200,
+  "bytes": 112718,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-copackers-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-copackers-960.webp",
+  "status": 200,
+  "bytes": 51290,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-cpg-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-cpg-1920.webp",
+  "status": 200,
+  "bytes": 209006,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-cpg-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-cpg-960.webp",
+  "status": 200,
+  "bytes": 98144,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-dairy-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-dairy-1920.webp",
+  "status": 200,
+  "bytes": 166736,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-dairy-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-dairy-960.webp",
+  "status": 200,
+  "bytes": 78590,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-ecommerce-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-ecommerce-1920.webp",
+  "status": 200,
+  "bytes": 161642,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-ecommerce-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-ecommerce-960.webp",
+  "status": 200,
+  "bytes": 65376,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-food-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-food-1920.webp",
+  "status": 200,
+  "bytes": 220818,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-food-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-food-960.webp",
+  "status": 200,
+  "bytes": 96046,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-frozen-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-frozen-1920.webp",
+  "status": 200,
+  "bytes": 274570,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-frozen-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-frozen-960.webp",
+  "status": 200,
+  "bytes": 110388,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-household-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-household-1920.webp",
+  "status": 200,
+  "bytes": 313800,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-household-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-household-960.webp",
+  "status": 200,
+  "bytes": 128894,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-paper-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-paper-1920.webp",
+  "status": 200,
+  "bytes": 173108,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-paper-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-paper-960.webp",
+  "status": 200,
+  "bytes": 77302,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-personal-care-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-personal-care-1920.webp",
+  "status": 200,
+  "bytes": 110488,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-personal-care-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-personal-care-960.webp",
+  "status": 200,
+  "bytes": 51404,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-pet-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-pet-1920.webp",
+  "status": 200,
+  "bytes": 200354,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-pet-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-pet-960.webp",
+  "status": 200,
+  "bytes": 90568,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-pharma-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-pharma-1920.webp",
+  "status": 200,
+  "bytes": 264020,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-pharma-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-pharma-960.webp",
+  "status": 200,
+  "bytes": 107596,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-protein-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-protein-1920.webp",
+  "status": 200,
+  "bytes": 187042,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-ind-protein-960.webp",
+  "file": "assets_site\\assets\\media\\trf-ind-protein-960.webp",
+  "status": 200,
+  "bytes": 85368,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-industrial-automation-lenexa-facility-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-industrial-automation-lenexa-facility-1920.webp",
+  "status": 200,
+  "bytes": 51124,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-careers-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-careers-1920.webp",
+  "status": 200,
+  "bytes": 297796,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-compliance-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-compliance-1920.webp",
+  "status": 200,
+  "bytes": 297358,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-contact-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-contact-1920.webp",
+  "status": 200,
+  "bytes": 237726,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-custom-palletizer-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-custom-palletizer-1920.webp",
+  "status": 200,
+  "bytes": 255224,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-privacy-choices-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-privacy-choices-1920.webp",
+  "status": 200,
+  "bytes": 362806,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-privacy-policy-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-privacy-policy-1920.webp",
+  "status": 200,
+  "bytes": 261404,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-resources-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-resources-1920.webp",
+  "status": 200,
+  "bytes": 220338,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-plant-terms-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-plant-terms-1920.webp",
+  "status": 200,
+  "bytes": 239016,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-cleanflow-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-cleanflow-1920.webp",
+  "status": 200,
+  "bytes": 113142,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-cleanflow-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-cleanflow-960.webp",
+  "status": 200,
+  "bytes": 75522,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-cobot-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-cobot-1920.webp",
+  "status": 200,
+  "bytes": 25978,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-cobot-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-cobot-960.webp",
+  "status": 200,
+  "bytes": 25978,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-compact-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-compact-1920.webp",
+  "status": 200,
+  "bytes": 178710,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-compact-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-compact-960.webp",
+  "status": 200,
+  "bytes": 56062,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-droppack-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-droppack-1920.webp",
+  "status": 200,
+  "bytes": 127002,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-droppack-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-droppack-960.webp",
+  "status": 200,
+  "bytes": 25292,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-intraflow-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-intraflow-1920.webp",
+  "status": 200,
+  "bytes": 79450,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-intraflow-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-intraflow-960.webp",
+  "status": 200,
+  "bytes": 52206,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-onepack-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-onepack-1920.webp",
+  "status": 200,
+  "bytes": 106056,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-onepack-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-onepack-960.webp",
+  "status": 200,
+  "bytes": 27120,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-rapidpack-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-rapidpack-1920.webp",
+  "status": 200,
+  "bytes": 125552,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-rapidpack-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-rapidpack-960.webp",
+  "status": 200,
+  "bytes": 31060,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-speed-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-speed-1920.webp",
+  "status": 200,
+  "bytes": 49542,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-speed-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-speed-960.webp",
+  "status": 200,
+  "bytes": 49542,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-subzero-1920.webp",
+  "file": "assets_site\\assets\\media\\trf-w-subzero-1920.webp",
+  "status": 200,
+  "bytes": 263472,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trf-w-subzero-960.webp",
+  "file": "assets_site\\assets\\media\\trf-w-subzero-960.webp",
+  "status": 200,
+  "bytes": 69748,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-application-1920.webp",
+  "status": 200,
+  "bytes": 116560,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-application-960.webp",
+  "status": 200,
+  "bytes": 64064,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-detail-1920.webp",
+  "status": 200,
+  "bytes": 86672,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-detail-960.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-detail-960.webp",
+  "status": 200,
+  "bytes": 64602,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-frame-1-960.webp",
+  "status": 200,
+  "bytes": 53532,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-frame-2-960.webp",
+  "status": 200,
+  "bytes": 77840,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-hero-1920.webp",
+  "status": 200,
+  "bytes": 185226,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcleanflow-hero-960.webp",
+  "file": "assets_site\\assets\\media\\trfcleanflow-hero-960.webp",
+  "status": 200,
+  "bytes": 79922,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-application-1920.webp",
+  "status": 200,
+  "bytes": 58816,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-application-960.webp",
+  "status": 200,
+  "bytes": 29356,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-detail-1920.webp",
+  "status": 200,
+  "bytes": 61390,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-detail-960.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-detail-960.webp",
+  "status": 200,
+  "bytes": 40284,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-frame-1-960.webp",
+  "status": 200,
+  "bytes": 31772,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-frame-2-960.webp",
+  "status": 200,
+  "bytes": 33082,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-full-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-full-1920.webp",
+  "status": 200,
+  "bytes": 90368,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-full-black-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-full-black-1920.webp",
+  "status": 200,
+  "bytes": 82018,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcobot-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcobot-hero-1920.webp",
+  "status": 200,
+  "bytes": 163470,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-application-1920.webp",
+  "status": 200,
+  "bytes": 141774,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-application-960.webp",
+  "status": 200,
+  "bytes": 56068,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-detail-1920.webp",
+  "status": 200,
+  "bytes": 112922,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-frame-1-960.webp",
+  "status": 200,
+  "bytes": 105506,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-frame-2-960.webp",
+  "status": 200,
+  "bytes": 102152,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfcompact-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfcompact-hero-1920.webp",
+  "status": 200,
+  "bytes": 248634,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-application-1920.webp",
+  "status": 200,
+  "bytes": 150772,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-application-960.webp",
+  "status": 200,
+  "bytes": 72810,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-detail-1920.webp",
+  "status": 200,
+  "bytes": 39612,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-detail-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-detail-960.webp",
+  "status": 200,
+  "bytes": 29258,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-frame-1-960.webp",
+  "status": 200,
+  "bytes": 41890,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-frame-2-960.webp",
+  "status": 200,
+  "bytes": 67472,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-frame-3-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-frame-3-960.webp",
+  "status": 200,
+  "bytes": 59012,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-hero-1920.webp",
+  "status": 200,
+  "bytes": 131170,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfdroppack-hero-960.webp",
+  "file": "assets_site\\assets\\media\\trfdroppack-hero-960.webp",
+  "status": 200,
+  "bytes": 24060,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-application-1920.webp",
+  "status": 200,
+  "bytes": 144004,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-application-960.webp",
+  "status": 200,
+  "bytes": 76848,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-detail-1920.webp",
+  "status": 200,
+  "bytes": 70660,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-detail-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-detail-960.webp",
+  "status": 200,
+  "bytes": 53816,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-frame-1-960.webp",
+  "status": 200,
+  "bytes": 22494,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-frame-2-960.webp",
+  "status": 200,
+  "bytes": 35360,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-frame-3-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-frame-3-960.webp",
+  "status": 200,
+  "bytes": 44840,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfintraflow-frame-5-960.webp",
+  "file": "assets_site\\assets\\media\\trfintraflow-frame-5-960.webp",
+  "status": 200,
+  "bytes": 89276,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-application-1920.webp",
+  "status": 200,
+  "bytes": 156992,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-application-960.webp",
+  "status": 200,
+  "bytes": 66994,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-detail-1920.webp",
+  "status": 200,
+  "bytes": 133712,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-frame-4-960.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-frame-4-960.webp",
+  "status": 200,
+  "bytes": 64762,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-hero-1920.webp",
+  "status": 200,
+  "bytes": 117996,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfonepack-hero-960.webp",
+  "file": "assets_site\\assets\\media\\trfonepack-hero-960.webp",
+  "status": 200,
+  "bytes": 27608,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-application-1920.webp",
+  "status": 200,
+  "bytes": 62914,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-application-960.webp",
+  "status": 200,
+  "bytes": 35460,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-detail-1920.webp",
+  "status": 200,
+  "bytes": 67650,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-frame-1-960.webp",
+  "status": 200,
+  "bytes": 39530,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-frame-3-960.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-frame-3-960.webp",
+  "status": 200,
+  "bytes": 41510,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-hero-1920.webp",
+  "status": 200,
+  "bytes": 97496,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfrapidpack-hero-960.webp",
+  "file": "assets_site\\assets\\media\\trfrapidpack-hero-960.webp",
+  "status": 200,
+  "bytes": 25514,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-application-1920.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-application-1920.webp",
+  "status": 200,
+  "bytes": 239626,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-application-960.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-application-960.webp",
+  "status": 200,
+  "bytes": 89694,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-detail-1920.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-detail-1920.webp",
+  "status": 200,
+  "bytes": 149476,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-frame-1-960.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-frame-1-960.webp",
+  "status": 200,
+  "bytes": 72702,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-frame-2-960.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-frame-2-960.webp",
+  "status": 200,
+  "bytes": 62276,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-frame-4-960.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-frame-4-960.webp",
+  "status": 200,
+  "bytes": 35046,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/media/trfspeed-hero-1920.webp",
+  "file": "assets_site\\assets\\media\\trfspeed-hero-1920.webp",
+  "status": 200,
+  "bytes": 361130,
+  "type": "image/webp",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/about-careers.jpg",
+  "file": "assets_site\\assets\\og\\about-careers.jpg",
+  "status": 200,
+  "bytes": 189628,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/about-compliance.jpg",
+  "file": "assets_site\\assets\\og\\about-compliance.jpg",
+  "status": 200,
+  "bytes": 187641,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/about.jpg",
+  "file": "assets_site\\assets\\og\\about.jpg",
+  "status": 200,
+  "bytes": 119767,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-bag-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-bag-case-packer.jpg",
+  "status": 200,
+  "bytes": 76618,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-carton-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-carton-case-packer.jpg",
+  "status": 200,
+  "bytes": 89747,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-cup-and-tub-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-cup-and-tub-case-packer.jpg",
+  "status": 200,
+  "bytes": 78615,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-drop-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-drop-packer.jpg",
+  "status": 200,
+  "bytes": 78615,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-flow-wrap-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-flow-wrap-case-packer.jpg",
+  "status": 200,
+  "bytes": 88429,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-integrated-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-integrated-case-packer.jpg",
+  "status": 200,
+  "bytes": 89747,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-pillow-bag-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-pillow-bag-case-packer.jpg",
+  "status": 200,
+  "bytes": 141481,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-pouch-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-pouch-case-packer.jpg",
+  "status": 200,
+  "bytes": 156818,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-robotic-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-robotic-case-packer.jpg",
+  "status": 200,
+  "bytes": 76618,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-thermoformed-package-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-thermoformed-package-case-packer.jpg",
+  "status": 200,
+  "bytes": 76618,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-top-load-case-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-top-load-case-packer.jpg",
+  "status": 200,
+  "bytes": 89747,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing-tray-packer.jpg",
+  "file": "assets_site\\assets\\og\\case-packing-tray-packer.jpg",
+  "status": 200,
+  "bytes": 78615,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/case-packing.jpg",
+  "file": "assets_site\\assets\\og\\case-packing.jpg",
+  "status": 200,
+  "bytes": 89747,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/contact.jpg",
+  "file": "assets_site\\assets\\og\\contact.jpg",
+  "status": 200,
+  "bytes": 119767,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-accumulation-and-flow-control.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-accumulation-and-flow-control.jpg",
+  "status": 200,
+  "bytes": 134031,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-case-conveyor-intralogistics.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-case-conveyor-intralogistics.jpg",
+  "status": 200,
+  "bytes": 134031,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-curves-and-transfers.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-curves-and-transfers.jpg",
+  "status": 200,
+  "bytes": 102666,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-elevation-conveyors.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-elevation-conveyors.jpg",
+  "status": 200,
+  "bytes": 134031,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-end-of-line-integration.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-end-of-line-integration.jpg",
+  "status": 200,
+  "bytes": 141540,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-hygienic-food-conveyor-dry.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-hygienic-food-conveyor-dry.jpg",
+  "status": 200,
+  "bytes": 146417,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-hygienic-food-conveyor-washdown.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-hygienic-food-conveyor-washdown.jpg",
+  "status": 200,
+  "bytes": 129119,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-hygienic-food-conveyor.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-hygienic-food-conveyor.jpg",
+  "status": 200,
+  "bytes": 146417,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-merge-divert-and-sorting.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-merge-divert-and-sorting.jpg",
+  "status": 200,
+  "bytes": 141540,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems-straight-conveying.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems-straight-conveying.jpg",
+  "status": 200,
+  "bytes": 102666,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/conveyor-systems.jpg",
+  "file": "assets_site\\assets\\og\\conveyor-systems.jpg",
+  "status": 200,
+  "bytes": 134031,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/home.jpg",
+  "file": "assets_site\\assets\\og\\home.jpg",
+  "status": 200,
+  "bytes": 127485,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-bakery-and-snacks.jpg",
+  "file": "assets_site\\assets\\og\\industries-bakery-and-snacks.jpg",
+  "status": 200,
+  "bytes": 176157,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-beverage.jpg",
+  "file": "assets_site\\assets\\og\\industries-beverage.jpg",
+  "status": 200,
+  "bytes": 201122,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-chemicals.jpg",
+  "file": "assets_site\\assets\\og\\industries-chemicals.jpg",
+  "status": 200,
+  "bytes": 168807,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-co-packers.jpg",
+  "file": "assets_site\\assets\\og\\industries-co-packers.jpg",
+  "status": 200,
+  "bytes": 105565,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-confectionery.jpg",
+  "file": "assets_site\\assets\\og\\industries-confectionery.jpg",
+  "status": 200,
+  "bytes": 128102,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-consumer-packaged-goods.jpg",
+  "file": "assets_site\\assets\\og\\industries-consumer-packaged-goods.jpg",
+  "status": 200,
+  "bytes": 173163,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-dairy-and-cheese.jpg",
+  "file": "assets_site\\assets\\og\\industries-dairy-and-cheese.jpg",
+  "status": 200,
+  "bytes": 146379,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-e-commerce-and-distribution.jpg",
+  "file": "assets_site\\assets\\og\\industries-e-commerce-and-distribution.jpg",
+  "status": 200,
+  "bytes": 131746,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-food-processing.jpg",
+  "file": "assets_site\\assets\\og\\industries-food-processing.jpg",
+  "status": 200,
+  "bytes": 184402,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-frozen-food-and-ice-cream.jpg",
+  "file": "assets_site\\assets\\og\\industries-frozen-food-and-ice-cream.jpg",
+  "status": 200,
+  "bytes": 197544,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-household-and-cleaning-products.jpg",
+  "file": "assets_site\\assets\\og\\industries-household-and-cleaning-products.jpg",
+  "status": 200,
+  "bytes": 210165,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-paper-and-packaging.jpg",
+  "file": "assets_site\\assets\\og\\industries-paper-and-packaging.jpg",
+  "status": 200,
+  "bytes": 146433,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-personal-care-and-cosmetics.jpg",
+  "file": "assets_site\\assets\\og\\industries-personal-care-and-cosmetics.jpg",
+  "status": 200,
+  "bytes": 112603,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-pet-food.jpg",
+  "file": "assets_site\\assets\\og\\industries-pet-food.jpg",
+  "status": 200,
+  "bytes": 160915,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-pharmaceutical.jpg",
+  "file": "assets_site\\assets\\og\\industries-pharmaceutical.jpg",
+  "status": 200,
+  "bytes": 177182,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries-protein-processing.jpg",
+  "file": "assets_site\\assets\\og\\industries-protein-processing.jpg",
+  "status": 200,
+  "bytes": 160402,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/industries.jpg",
+  "file": "assets_site\\assets\\og\\industries.jpg",
+  "status": 200,
+  "bytes": 123610,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/locations.jpg",
+  "file": "assets_site\\assets\\og\\locations.jpg",
+  "status": 200,
+  "bytes": 146421,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/parts-and-service.jpg",
+  "file": "assets_site\\assets\\og\\parts-and-service.jpg",
+  "status": 200,
+  "bytes": 149313,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/privacy-choices.jpg",
+  "file": "assets_site\\assets\\og\\privacy-choices.jpg",
+  "status": 200,
+  "bytes": 216365,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/privacy-policy.jpg",
+  "file": "assets_site\\assets\\og\\privacy-policy.jpg",
+  "status": 200,
+  "bytes": 166520,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-blog-how-much-does-a-robotic-palletizer-cost.jpg",
+  "file": "assets_site\\assets\\og\\resources-blog-how-much-does-a-robotic-palletizer-cost.jpg",
+  "status": 200,
+  "bytes": 96038,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-blog.jpg",
+  "file": "assets_site\\assets\\og\\resources-blog.jpg",
+  "status": 200,
+  "bytes": 132986,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-case-studies-avon.jpg",
+  "file": "assets_site\\assets\\og\\resources-case-studies-avon.jpg",
+  "status": 200,
+  "bytes": 224257,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-case-studies-custom-foods.jpg",
+  "file": "assets_site\\assets\\og\\resources-case-studies-custom-foods.jpg",
+  "status": 200,
+  "bytes": 206120,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-case-studies-lodge-cast-iron.jpg",
+  "file": "assets_site\\assets\\og\\resources-case-studies-lodge-cast-iron.jpg",
+  "status": 200,
+  "bytes": 215386,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-case-studies.jpg",
+  "file": "assets_site\\assets\\og\\resources-case-studies.jpg",
+  "status": 200,
+  "bytes": 206120,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-downloads.jpg",
+  "file": "assets_site\\assets\\og\\resources-downloads.jpg",
+  "status": 200,
+  "bytes": 140065,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-e-books.jpg",
+  "file": "assets_site\\assets\\og\\resources-e-books.jpg",
+  "status": 200,
+  "bytes": 94563,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-trade-shows-and-events-pack-expo-international-2026.jpg",
+  "file": "assets_site\\assets\\og\\resources-trade-shows-and-events-pack-expo-international-2026.jpg",
+  "status": 200,
+  "bytes": 132986,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-trade-shows-and-events.jpg",
+  "file": "assets_site\\assets\\og\\resources-trade-shows-and-events.jpg",
+  "status": 200,
+  "bytes": 149313,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-webinars.jpg",
+  "file": "assets_site\\assets\\og\\resources-webinars.jpg",
+  "status": 200,
+  "bytes": 96038,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources-white-papers.jpg",
+  "file": "assets_site\\assets\\og\\resources-white-papers.jpg",
+  "status": 200,
+  "bytes": 102666,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/resources.jpg",
+  "file": "assets_site\\assets\\og\\resources.jpg",
+  "status": 200,
+  "bytes": 164749,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-bag-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-bag-palletizer.jpg",
+  "status": 200,
+  "bytes": 127485,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-box-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-box-palletizer.jpg",
+  "status": 200,
+  "bytes": 174203,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-bucket-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-bucket-palletizer.jpg",
+  "status": 200,
+  "bytes": 120158,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-bundle-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-bundle-palletizer.jpg",
+  "status": 200,
+  "bytes": 123610,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-carton-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-carton-palletizer.jpg",
+  "status": 200,
+  "bytes": 161277,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-case-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-case-palletizer.jpg",
+  "status": 200,
+  "bytes": 78763,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-cobot-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-cobot-palletizer.jpg",
+  "status": 200,
+  "bytes": 79756,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-compact-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-compact-palletizer.jpg",
+  "status": 200,
+  "bytes": 127485,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-custom-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-custom-palletizer.jpg",
+  "status": 200,
+  "bytes": 184455,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-drum-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-drum-palletizer.jpg",
+  "status": 200,
+  "bytes": 174203,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-high-speed-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-high-speed-palletizer.jpg",
+  "status": 200,
+  "bytes": 174203,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-robotic-palletizer-cost.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-robotic-palletizer-cost.jpg",
+  "status": 200,
+  "bytes": 123610,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-subzero-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-subzero-palletizer.jpg",
+  "status": 200,
+  "bytes": 206120,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing-tray-palletizer.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing-tray-palletizer.jpg",
+  "status": 200,
+  "bytes": 161277,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/robotic-palletizing.jpg",
+  "file": "assets_site\\assets\\og\\robotic-palletizing.jpg",
+  "status": 200,
+  "bytes": 127485,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/terms-of-use.jpg",
+  "file": "assets_site\\assets\\og\\terms-of-use.jpg",
+  "status": 200,
+  "bytes": 164018,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/tools-palletizing-roi-calculator.jpg",
+  "file": "assets_site\\assets\\og\\tools-palletizing-roi-calculator.jpg",
+  "status": 200,
+  "bytes": 94563,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/og/tools.jpg",
+  "file": "assets_site\\assets\\og\\tools.jpg",
+  "status": 200,
+  "bytes": 140065,
+  "type": "image/jpeg",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/site.css",
+  "file": "assets_site\\assets\\site.css",
+  "status": 200,
+  "bytes": 75472,
+  "type": "text/css",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/assets/trf-logo-header.svg",
+  "file": "assets_site\\assets\\trf-logo-header.svg",
+  "status": 200,
+  "bytes": 85802,
+  "type": "image/svg+xml",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "file": "assets_site\\cdn-cgi\\scripts\\5c5dd728\\cloudflare-static\\email-decode.min.js",
+  "status": 200,
+  "bytes": 1239,
+  "type": "application/javascript",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/favicon.ico",
+  "file": "assets_site\\favicon.ico",
+  "status": 200,
+  "bytes": 1846,
+  "type": "image/x-icon",
+  "kind": "asset"
+ },
+ {
+  "url": "https://trfautomation.com/sitemap.xml",
+  "file": "root\\sitemap.xml",
+  "status": 200,
+  "bytes": 8932,
+  "type": "text/xml",
+  "kind": "root"
+ },
+ {
+  "url": "https://trfautomation.com/robots.txt",
+  "file": "root\\robots.txt",
+  "status": 200,
+  "bytes": 26,
+  "type": "text/plain",
+  "kind": "root"
+ },
+ {
+  "url": "https://trfautomation.com/llms.txt",
+  "file": "root\\llms.txt",
+  "status": 200,
+  "bytes": 24383,
+  "type": "text/plain",
+  "kind": "root"
+ },
+ {
+  "url": "https://trfautomation.com/llms-full.txt",
+  "status": 404,
+  "kind": "root",
+  "error": "http"
+ },
+ {
+  "url": "https://trfautomation.com/favicon.ico",
+  "file": "root\\favicon.ico",
+  "status": 200,
+  "bytes": 1846,
+  "type": "image/x-icon",
+  "kind": "root"
+ },
+ {
+  "url": "https://trfautomation.com/manifest.json",
+  "status": 404,
+  "kind": "root",
+  "error": "http"
+ },
+ {
+  "url": "https://trfautomation.com/site.webmanifest",
+  "status": 404,
+  "kind": "root",
+  "error": "http"
+ }
+]

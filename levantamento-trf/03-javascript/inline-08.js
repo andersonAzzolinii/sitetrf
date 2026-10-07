@@ -1,0 +1,10 @@
+(function(){var FREE=["gmail.com", "googlemail.com", "hotmail.com", "hotmail.co.uk", "hotmail.fr", "outlook.com", "live.com", "msn.com", "yahoo.com", "yahoo.co.uk", "yahoo.ca", "yahoo.com.br", "ymail.com", "rocketmail.com", "aol.com", "icloud.com", "me.com", "mac.com", "proton.me", "protonmail.com", "pm.me", "gmx.com", "gmx.net", "gmx.us", "mail.com", "zoho.com", "zohomail.com", "yandex.com", "yandex.ru", "bol.com.br", "uol.com.br", "terra.com.br", "ig.com.br", "comcast.net", "verizon.net", "att.net", "sbcglobal.net", "bellsouth.net", "cox.net", "charter.net", "earthlink.net", "fastmail.com", "tutanota.com", "tuta.io", "hey.com", "inbox.com", "qq.com", "163.com", "126.com"];function isWork(m){var d=String(m||'').split('@').pop().toLowerCase().trim();return FREE.indexOf(d)<0}
+var sec=document.currentScript.parentNode,f=sec.querySelector('.catalog-form'),ok=sec.querySelector('.cf-ok'),e=f.querySelector('.roi-err'),prod=f.getAttribute('data-product');
+f.addEventListener('submit',function(ev){ev.preventDefault();e.hidden=true;
+if(!f.checkValidity()){e.textContent='Please fill in your name, company and a valid work email.';e.hidden=false;if(f.reportValidity)f.reportValidity();return}
+if(!isWork(f.elements.email.value)){e.textContent='Please use your work email.';e.hidden=false;f.elements.email.focus();return}
+if(f.elements.website.value){f.hidden=true;ok.hidden=false;return}
+var b={email:f.elements.email.value,contactName:f.elements.name.value,company:f.elements.company.value,source:'catalog-request',message:'Catalog request: '+prod,pageUrl:location.href};
+var btn=f.querySelector('button');btn.disabled=true;
+fetch(f.getAttribute('data-api'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}).then(function(r){if(!r.ok)throw 0;f.hidden=true;ok.hidden=false}).catch(function(){btn.disabled=false;e.textContent='We could not send your request. Please call (913) 242-8019 or try again.';e.hidden=false});
+});})();

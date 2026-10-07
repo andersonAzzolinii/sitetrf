@@ -1,0 +1,148 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   Botoes. Todos chanfrados (--ch = 12px), uppercase, fonte display.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+.btn,
+.hdr-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 24px;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  white-space: nowrap;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+/* primario: verde solido sobre preto */
+.btn.pri,
+.hdr-cta {
+  background: var(--green);
+  color: #000;
+}
+
+.btn.pri:hover,
+.hdr-cta:hover {
+  background: var(--green-hover);
+}
+
+/* secundario sobre fundo escuro */
+.btn.sec-d {
+  background: transparent;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.btn.sec-d:hover {
+  color: var(--green);
+  box-shadow: inset 0 0 0 1px var(--green);
+}
+
+/* secundario sobre fundo claro */
+.btn.sec-c {
+  background: transparent;
+  color: #000;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.sec.dark .btn.sec-c,
+.final .btn.sec-c {
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.btn.sec-c:hover {
+  box-shadow: inset 0 0 0 2px var(--green);
+}
+
+/* a seta desliza no hover do botao */
+.btn:hover .arr {
+  transform: translateX(5px);
+}
+
+/* o "TRF" dentro de um botao primario fica preto, e ganha respiro */
+.btn.pri .pn b,
+.hdr-cta .pn b {
+  color: #000;
+}
+
+.btn .pn,
+.hdr-cta .pn {
+  margin: 0 0.32em;
+}
+
+/* grupos de botao */
+.btns,
+.cta-btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.cta-btns {
+  margin: 26px 0 8px;
+}
+
+@media (max-width: 420px) {
+  .btns .btn,
+  .cta-btns .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* ── link-CTA com borda inferior verde ──────────────────────────────────── */
+
+a.go {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid var(--green);
+  padding: 0 0 6px;
+}
+
+.sec.dark a.go,
+.final a.go {
+  color: var(--green);
+}
+
+a.go:hover {
+  color: var(--green);
+}
+
+.sec.light a.go:hover {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+a.go:hover .arr {
+  transform: translateX(4px);
+}
+
+p.go-row {
+  margin: 18px 0 0;
+}

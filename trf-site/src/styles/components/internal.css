@@ -1,0 +1,726 @@
+/* ---------------------------------------------------------------------------
+   Blocos das paginas internas: FAQ, CTA final, tabelas, numeros, processo,
+   tiles de especificacao e a faixa verde.
+   --------------------------------------------------------------------------- */
+
+/* ---- FAQ ---------------------------------------------------------------- */
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 44px;
+  margin-top: 28px;
+}
+
+details.qa {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+details.qa summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.02rem;
+  color: #000;
+}
+
+details.qa summary .q {
+  flex: 1;
+  min-width: 0;
+}
+
+details.qa summary .q .pn {
+  display: inline;
+}
+
+/* o +/-: quadrado chanfrado com duas barras verdes, uma delas rotaciona */
+.pm {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  background: #000;
+  clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 7px, 100% 100%, 0 100%);
+  transition: background 0.2s ease;
+}
+
+.pm::before,
+.pm::after {
+  content: '';
+  position: absolute;
+  background: var(--green);
+  left: 8px;
+  top: 13px;
+  width: 12px;
+  height: 2px;
+  transition: transform 0.2s ease;
+}
+
+.pm::after {
+  transform: rotate(90deg);
+}
+
+details.qa[open] .pm::after {
+  transform: rotate(0);
+}
+
+.ans {
+  padding: 0 0 22px;
+  animation: up 0.3s ease;
+}
+
+.ans p {
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- CTA final ---------------------------------------------------------- */
+
+.final {
+  position: relative;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  padding: 110px 0;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+
+.final-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.45;
+  max-width: none;
+}
+
+.final::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.86) 45%, rgba(0, 0, 0, 0.35) 100%);
+  z-index: 0;
+}
+
+.final .hero-grid,
+.final-radial,
+.final-t {
+  z-index: 0;
+}
+
+.final-radial {
+  left: -260px;
+  right: auto;
+  top: -260px;
+  opacity: 0.22;
+}
+
+.final-t {
+  position: absolute;
+  right: 40px;
+  bottom: -60px;
+  width: 300px;
+  color: var(--green);
+  opacity: 0.5;
+  pointer-events: none;
+  display: block;
+}
+
+.final-in {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.final h2 {
+  font-weight: 700;
+  line-height: 1.04;
+  font-size: clamp(2.2rem, 4.4vw, 3.8rem);
+  margin: 0;
+  max-width: 16ch;
+}
+
+.final-p {
+  color: var(--on-dark-soft);
+  max-width: 52ch;
+  margin: 18px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.final .btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .final {
+    padding: 80px 0;
+  }
+}
+
+/* ---- tabelas ------------------------------------------------------------ */
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 34px 0;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+
+.sec.dark .table-wrap {
+  border-color: var(--line-dark);
+  background: var(--s900);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.94rem;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+
+th {
+  background: #000;
+  color: #fff;
+  text-align: left;
+  font-family: var(--display);
+  font-weight: 600;
+  padding: 15px 18px;
+  border-bottom: 2px solid var(--green);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px 18px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  vertical-align: top;
+}
+
+.sec.dark td {
+  border-top-color: var(--line-dark-soft);
+  color: var(--on-dark-soft);
+}
+
+td:first-child {
+  font-weight: 600;
+}
+
+.sec.dark td:first-child {
+  color: #fff;
+}
+
+tbody tr {
+  transition: background 0.15s ease;
+}
+
+.sec.light tbody tr:hover {
+  background: #f7f7f7;
+}
+
+.sec.dark tbody tr:hover {
+  background: var(--hover-dark);
+}
+
+.table-wrap.spec {
+  margin-top: 26px;
+}
+
+.table-wrap.spec td:first-child {
+  width: 26%;
+  white-space: normal;
+  background: rgba(0, 0, 0, 0.035);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.sec.dark .table-wrap.spec td:first-child {
+  background: rgba(255, 255, 255, 0.04);
+  border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 620px) {
+  .table-wrap.spec td:first-child {
+    width: 34%;
+  }
+}
+
+/* abaixo de 600px a tabela vira cards, com o rotulo vindo do data-label */
+@media (max-width: 600px) {
+  .table-wrap {
+    border: 0;
+    background: none;
+    overflow: visible;
+  }
+  .table-wrap table,
+  .table-wrap tbody,
+  .table-wrap tr,
+  .table-wrap td {
+    display: block;
+    width: 100%;
+  }
+  .table-wrap thead {
+    display: none;
+  }
+  .table-wrap tr {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+    margin: 0 0 12px;
+    padding: 6px 14px;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  }
+  .sec.dark .table-wrap tr {
+    background: var(--s900);
+    border-color: rgba(255, 255, 255, 0.14);
+  }
+  /* seletores qualificados para vencer `.table-wrap.spec td:first-child`
+     (largura 26%, fundo e borda), que no desktop e mais especifica.
+     No original isto era resolvido com !important. */
+  .table-wrap td,
+  .table-wrap.spec td,
+  .table-wrap.spec td:first-child {
+    border: 0;
+    padding: 8px 0;
+    white-space: normal;
+    background: none;
+  }
+  /* o separador entre as duas celulas do card: precisa vencer o
+     `border:0` qualificado acima */
+  .table-wrap td + td,
+  .table-wrap.spec td + td {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .sec.dark .table-wrap td + td,
+  .sec.dark .table-wrap.spec td + td {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+  .table-wrap td[data-label]:not([data-label=''])::before {
+    content: attr(data-label);
+    display: block;
+    font-family: var(--display);
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin: 0 0 3px;
+  }
+  .sec.dark .table-wrap td[data-label]::before {
+    color: var(--green);
+  }
+  .table-wrap td:first-child,
+  .table-wrap.spec td:first-child {
+    width: 100%;
+    font-weight: 600;
+  }
+}
+
+/* ---- faixas de numeros -------------------------------------------------- */
+
+.nums {
+  background: var(--s800);
+  color: #fff;
+  border-top: 1px solid var(--line-dark-faint);
+}
+
+.nums-in {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.num {
+  padding: 40px 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.num:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.num-v {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  color: var(--green);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.num-l {
+  margin: 10px 0 0;
+  color: var(--grey);
+  font-size: 0.92rem;
+  max-width: 22ch;
+}
+
+@media (max-width: 900px) {
+  .nums-in {
+    grid-template-columns: 1fr 1fr;
+  }
+  .num {
+    border-left: 0;
+    padding: 24px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .nums-in {
+    gap: 0 20px;
+  }
+  .num-v {
+    font-size: 1.75rem;
+  }
+}
+
+/* variante de servico: preta, borda verde de 3px no pe */
+.svc-nums {
+  background: #000;
+  color: #fff;
+  border-bottom: 3px solid var(--green);
+}
+
+.svc-nums .nums-in {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.svc-nums .num {
+  padding: 38px 24px;
+  border-left: 1px solid var(--line-dark);
+}
+
+.svc-nums .num:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.svc-nums .num-v {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--green);
+}
+
+.svc-nums .num-l {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #d6d6d6;
+  max-width: 24ch;
+}
+
+@media (max-width: 900px) {
+  .svc-nums .nums-in {
+    grid-template-columns: 1fr 1fr;
+  }
+  .svc-nums .num:nth-child(3) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .svc-nums .num {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .svc-nums .nums-in {
+    grid-template-columns: 1fr;
+  }
+  .svc-nums .num {
+    border-left: 0;
+    padding: 22px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .svc-nums .num:first-child {
+    border-top: 0;
+  }
+}
+
+/* ---- processo em 3 colunas ---------------------------------------------- */
+
+.prose ol.process,
+ol.process {
+  list-style: none;
+  padding: 46px 36px 40px;
+  margin: 48px 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 32px;
+  row-gap: 46px;
+  max-width: none;
+  position: relative;
+  background: var(--s950);
+  border-bottom: 3px solid var(--green);
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+}
+
+.sec.dark ol.process {
+  background: var(--s800);
+}
+
+ol.process li {
+  position: relative;
+  margin: 0;
+  padding: 28px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+}
+
+/* a regua verde que corre pelo topo de cada item */
+ol.process li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -32px;
+  height: 2px;
+  background: var(--green);
+}
+
+ol.process li:nth-child(3n)::before,
+ol.process li:last-child::before {
+  right: 0;
+}
+
+/* o quadradinho chanfrado no inicio da regua */
+ol.process li::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--green);
+  clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
+}
+
+ol.process .n {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(3rem, 4.8vw, 4.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--white);
+  transition: color 0.25s ease;
+}
+
+ol.process li:hover .n {
+  color: var(--green);
+}
+
+ol.process .t {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  color: #fff;
+  max-width: 26ch;
+}
+
+.sec.light .prose ol.process .t,
+.sec.dark .prose ol.process .t {
+  color: #fff;
+}
+
+/* no mobile vira timeline vertical */
+@media (max-width: 700px) {
+  .prose ol.process,
+  ol.process {
+    grid-template-columns: 1fr;
+    padding: 34px 20px 26px;
+    row-gap: 0;
+  }
+  ol.process li {
+    padding: 0 0 30px 58px;
+    min-height: 64px;
+    gap: 2px;
+  }
+  ol.process li::before,
+  ol.process li:nth-child(3n)::before {
+    top: 8px;
+    left: 14px;
+    right: auto;
+    width: 2px;
+    height: 100%;
+  }
+  ol.process li:last-child::before {
+    display: none;
+  }
+  ol.process li::after {
+    top: 3px;
+    left: 8px;
+  }
+  ol.process .n {
+    font-size: 2rem;
+  }
+  ol.process .t {
+    max-width: none;
+    font-size: 1rem;
+  }
+}
+
+/* ---- tiles de especificacao --------------------------------------------- */
+
+.spec-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  margin: 34px 0 8px;
+  max-width: none;
+}
+
+.st {
+  background: #000;
+  color: #fff;
+  padding: 22px 22px 20px;
+  border-left: 4px solid var(--green);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+}
+
+.sec.dark .st {
+  background: var(--s800);
+}
+
+.st-v {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--green);
+}
+
+.sec .prose .st p.st-l,
+.st-l {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.35;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 1000px) {
+  .spec-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .spec-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- faixa verde solida -------------------------------------------------- */
+
+.show {
+  background: var(--green);
+  color: #000;
+}
+
+.show-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.show .eyebrow {
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.show .eyebrow::before {
+  background: #000;
+}
+
+.show-t {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.show .btn.pri {
+  background: #000;
+  color: var(--green);
+}
+
+.show .btn.pri:hover {
+  background: #1a1a1a;
+}
+
+.show .pn b {
+  color: #000;
+}
+
+/* ---- o circuito decorativo ---------------------------------------------- */
+
+.circuit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 520px;
+  height: 360px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20520%20360%22%20fill%3D%22none%22%20stroke%3D%22%23C0FF00%22%20stroke-width%3D%221%22%3E%3Cpath%20d%3D%22M0%2060H180L220%20100H360L400%2060H520%22/%3E%3Cpath%20d%3D%22M0%20200H90L130%20240H300%22/%3E%3Cpath%20d%3D%22M260%20360V290L300%20250H520%22/%3E%3Cpath%20d%3D%22M440%200V120L400%20160H330%22/%3E%3Cpath%20d%3D%22M60%20360V300L100%20260%22/%3E%3Cg%20fill%3D%22%23C0FF00%22%20stroke%3D%22none%22%3E%3Crect%20x%3D%22357%22%20y%3D%2297%22%20width%3D%226%22%20height%3D%226%22/%3E%3Crect%20x%3D%22297%22%20y%3D%22237%22%20width%3D%226%22%20height%3D%226%22/%3E%3Crect%20x%3D%22327%22%20y%3D%22157%22%20width%3D%226%22%20height%3D%226%22/%3E%3Crect%20x%3D%2297%22%20y%3D%22257%22%20width%3D%226%22%20height%3D%226%22/%3E%3C/g%3E%3C/svg%3E")
+    right top/contain no-repeat;
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .circuit {
+    width: 300px;
+    height: 210px;
+  }
+}
+
+/* ---- paragrafo unico em secao clara ------------------------------------- */
+
+.sec.light:not(.split) > .wrap.prose > p:only-child {
+  font-size: 1.18rem;
+  line-height: 1.65;
+  max-width: 900px;
+}
+
+.sec.light:has(> .wrap.prose > p:only-child) {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}

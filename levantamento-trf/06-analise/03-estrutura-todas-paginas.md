@@ -1,0 +1,6072 @@
+# ESTRUTURA DE TODAS AS PAGINAS
+
+## `/`
+- **title:** TRF Industrial Automation | End-of-Line Automation
+- **h1:** End-of-line automation engineered to keep your production running.
+- **secoes (12):** hero hero-home has-entries / home-title / benefits / sec light / sec plats / sec light partners / sec dark / sec light split / sec dark / sec parent / sec light events / sec dark follow
+
+```
+<main>
+  <section.hero.hero-home.has-entries>
+    <video.hero-video>
+    <div.home-shade>
+    <div.hero-grid>
+    <div.wrap.home-in>
+    <div.wrap.home-low>
+      <div.entries>
+  <section.home-title>
+    <div.wrap>
+      <ul.home-nums>
+        <li.home-num.rv>
+        <li.home-num.rv>
+        <li.home-num.rv>
+        <li.home-num.rv>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.c3>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+  <section.sec.plats>
+    <div.hero-grid>
+    <div.wrap>
+      <div.sec-head.rv>
+      <div.plat-cols>
+        <div.plat-col>
+          <ul.plat-grid>
+            <li.rv>
+            <li.rv>
+            <li.rv>
+            <li.rv>
+        <div.plat-col>
+          <ul.plat-grid>
+            <li.rv>
+            <li.rv>
+            <li.rv>
+        <div.plat-col>
+          <ul.plat-grid>
+            <li.rv>
+            <li.rv>
+      <div.btns.plat-cta>
+  <section.sec.light.partners>
+    <div.wrap.prose>
+      <ul.logos.seals>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+      <ul.logos.certs>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <ol.journey>
+        <li.rv>
+          <ul.jl>
+        <li.rv>
+          <ul.jl>
+        <li.rv>
+          <ul.jl>
+        <li.rv>
+          <ul.jl>
+        <li.rv>
+          <ul.jl>
+  <section.sec.light.split>
+    <div.wrap.split-in>
+      <div.prose.rv>
+      <div.split-img.fp.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <ul.inds>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+  <section.sec.parent>
+    <div.wrap.parent-in>
+      <div.rv>
+      <div.rv.parent-txt>
+        <ul.parent-facts>
+  <section.sec.light.events>
+    <div.wrap>
+      <div.rv>
+      <ul.ev-list>
+        <li.ev.rv>
+          <div.ev-logo>
+          <div.ev-info>
+  <section.sec.dark.follow>
+    <div.wrap.follow-in.rv>
+      <ul.social.big>
+```
+
+## `/about/`
+- **title:** About TRF Industrial Automation | End-of-Line Automation
+- **h1:** About TRF Industrial Automation.
+- **secoes (12):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light split auto / sec dark split auto / sec light / sec dark split auto inl / sec light / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <ul.checks>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/about/careers/`
+- **title:** TRF Industrial Automation Careers | Automation Jobs
+- **h1:** Careers at TRF Industrial Automation.
+- **secoes (8):** hero has-img / benefits / sec light / sec dark / sec light / sec light faq / sec dark / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+      <ul.checks>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.btns.cta-btns>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/about/compliance/`
+- **title:** Integrity and Compliance | TRF Industrial Automation
+- **h1:** Integrity and compliance: Our policy and how to report a concern.
+- **secoes (5):** hero hero-compact has-img / sec light / sec dark / sec roi omb / final
+
+```
+<main>
+  <section.hero.hero-compact.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.wrap.hero-in>
+  <section.sec.light>
+    <div.wrap.prose>
+      <ul.checks>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.roi.omb#report>
+    <div.wrap>
+      <form.roi-form.omb-form>
+        <div.roi-grid>
+      <div.roi-out.cf-ok>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/`
+- **title:** Case Packing Equipment | TRF Industrial Automation
+- **h1:** Case packing equipment that adapts to high-mix lines, difficult products and repetitive flexible packages.
+- **secoes (13):** hero has-img / benefits / sec light / sec dark split auto / sec light / sec dark / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.c3>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/bag-case-packer/`
+- **title:** Bag Case Packer: VFFS and Flexible Bag Packing | TRF
+- **h1:** Bag case packers matched to your line speed.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/carton-case-packer/`
+- **title:** Carton Packing Machine: Top-Load Carton Case Packing | TRF
+- **h1:** Carton packing machine sized to your line.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light split auto inl / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/cup-and-tub-case-packer/`
+- **title:** Cup and Tub Case Packer: Top-Load Case Packing | TRF
+- **h1:** Cup and tub case packer matched to your line.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/drop-packer/`
+- **title:** TRFDroppack Drop Packer for Flexible Bags | TRF
+- **h1:** TRFDroppack is the gravity drop packer for flexible packages, simple by design.
+- **secoes (13):** hero has-img / pp / sec light / sec dark / sec light split auto inl / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec dark / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark.split.auto.tbl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+  <div.wrap.prose.tbl-tail>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfdroppack>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/case-packing/flow-wrap-case-packer/`
+- **title:** Flow Wrap Case Packer | TRF Industrial Automation
+- **h1:** Flow wrap case packer for fast flow pack lines.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto inl / sec light split auto / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/integrated-case-packer/`
+- **title:** TRFOnepack: Integrated Case Packing Machine | TRF
+- **h1:** TRFOnepack is a case packing machine that erects, packs and seals on one platform.
+- **secoes (13):** hero has-img / pp / sec light / sec dark / sec light / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec dark / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark.split.auto.tbl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+  <div.wrap.prose.tbl-tail>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfonepack>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/case-packing/pillow-bag-case-packer/`
+- **title:** Pillow Bag Case Packer | TRF Industrial Automation
+- **h1:** Pillow bag case packer sized to your line.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light split auto inl / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/pouch-case-packer/`
+- **title:** Pouch Case Packer: Robotic and Gravity Pouch Packing | TRF
+- **h1:** Pouch case packer for robotic or gravity loading.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light split auto inl / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/robotic-case-packer/`
+- **title:** TRFRapidpack: Robotic Case Packer | TRF
+- **h1:** TRFRapidpack is the robotic case packer built around your product.
+- **secoes (13):** hero has-img / pp / sec light / sec dark / sec light split auto inl / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec dark / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark.split.auto.tbl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+  <div.wrap.prose.tbl-tail>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfrapidpack>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/case-packing/thermoformed-package-case-packer/`
+- **title:** Thermoformed Package Case Packer: Robotic Top-Load | TRF
+- **h1:** Thermoformed package case packer built around your packs.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark split auto inl / sec light split auto / sec dark split auto / sec light / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/top-load-case-packer/`
+- **title:** Top Load Case Packer | TRF Industrial Automation
+- **h1:** Top load case packers matched to your line speed.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto tbl / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/tray-packer/`
+- **title:** Tray Packer: Robotic Top-Load Tray Packing | TRF
+- **h1:** Tray packer for robotic or integrated case packing.
+- **secoes (9):** hero has-img / benefits / sec light split auto / sec dark split auto inl / sec light split auto / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/case-packing/tx/dallas/`
+- **title:** Case Packing Equipment in Dallas, TX | TRF
+- **h1:** Case packing equipment for Dallas, TX manufacturers, engineered and supported from Lenexa, Kansas.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/contact/`
+- **title:** Contact TRF Industrial Automation | Sales Engineer
+- **h1:** Talk with a TRF Sales Engineer about your line.
+- **secoes (4):** hero hero-compact has-img / sec roi contact-sec / sec light / final
+
+```
+<main>
+  <section.hero.hero-compact.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.wrap.hero-in>
+  <section.sec.roi.contact-sec#contact-form>
+    <div.wrap>
+      <form.roi-form.contact-form>
+        <div.roi-grid>
+      <div.roi-out.cf-ok>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/`
+- **title:** Industrial Conveyor Systems | TRF Industrial Automation
+- **h1:** Industrial conveyor systems engineered to connect packaging and food processing lines.
+- **secoes (14):** hero has-img / benefits / sec light / sec dark split auto / sec light / sec dark split auto tbl / sec light / sec dark / sec light split auto / sec dark split auto / sec light split auto inl / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.c2>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+          <div.scard-x>
+            <ul.checks>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+      <div.table-wrap>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/accumulation-and-flow-control/`
+- **title:** Accumulation Conveyor Systems | TRF Industrial Automation
+- **h1:** Accumulation conveyor systems for balanced lines.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto inl / sec light split auto / sec dark split auto inl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/ca/fresno/`
+- **title:** Industrial Conveyor Systems in Fresno, CA | TRF
+- **h1:** Industrial conveyor systems for Fresno, CA manufacturers, engineered and supported from Lenexa, Kansas.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto tbl / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/case-conveyor-intralogistics/`
+- **title:** TRFIntraflow: Custom Conveyor Systems | TRF
+- **h1:** TRFIntraflow custom conveyor systems are engineered to move and built to last.
+- **secoes (12):** hero has-img / pp / sec light / sec dark / sec light / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark.split.auto.tbl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+  <div.wrap.prose.tbl-tail>
+    <div.table-wrap>
+<section.sec.roi.catalog#catalog-trfintraflow>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/conveyor-systems/curves-and-transfers/`
+- **title:** Conveyor Curves and Transfers | TRF Industrial Automation
+- **h1:** Conveyor curves and transfers, engineered into the line.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/elevation-conveyors/`
+- **title:** Elevation Conveyors for Cases | TRF Industrial Automation
+- **h1:** Elevation conveyors for multi-level case flow.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/end-of-line-integration/`
+- **title:** End-of-Line Automation, Engineered as One System | TRF
+- **h1:** End-of-line automation: One partner, one line.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto inl / sec light split auto / sec dark split auto / sec light split auto / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/hygienic-food-conveyor/`
+- **title:** TRFCleanflow: Sanitary Conveyor Systems | TRF
+- **h1:** TRFCleanflow sanitary conveyor systems are clean by design and robust by nature.
+- **secoes (12):** hero has-img / pp / sec light / sec dark / sec light split auto inl / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark.split.auto.tbl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+  <div.wrap.prose.tbl-tail>
+    <div.table-wrap>
+<section.sec.roi.catalog#catalog-trfcleanflow>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/conveyor-systems/hygienic-food-conveyor/dry/`
+- **title:** TRFCleanflow Dry Conveyor System for Dry Zones | TRF
+- **h1:** TRFCleanflow dry conveyor system: Sanitary conveying for dry zones.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto inl / sec light split auto tbl / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/hygienic-food-conveyor/washdown/`
+- **title:** TRFCleanflow Washdown Conveyor Line | TRF
+- **h1:** TRFCleanflow washdown: The washdown conveyor built for high-pressure cleaning.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto / sec dark split auto inl / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/merge-divert-and-sorting/`
+- **title:** Merge and Divert Conveyors and Sorting Systems | TRF
+- **h1:** Merge and divert conveyors for case routing.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto / sec dark split auto inl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/conveyor-systems/straight-conveying/`
+- **title:** Straight Conveying Systems | TRF Industrial Automation
+- **h1:** Straight conveying systems for case handling lines.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/`
+- **title:** Packaging Automation by Industry | TRF Industrial Automation
+- **h1:** Packaging automation by industry: Robotic palletizing, case packing and conveyor systems.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark / sec light split auto tbl / sec dark / sec light split auto / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+        <ul.checks>
+        <ul.checks>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/bakery-and-snacks/`
+- **title:** Bakery Automation: Case Packing and Palletizing | TRF
+- **h1:** Bakery automation that starts where baking ends: Case packing, conveying and palletizing.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/beverage/`
+- **title:** Beverage Packaging Automation | TRF
+- **h1:** Beverage packaging automation that moves cases and bundles from the packer to the pallet.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark / sec light split auto inl / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/chemicals/`
+- **title:** Chemical Packaging Automation | TRF
+- **h1:** Chemical packaging automation: Case packing, conveying and palletizing engineered as one end of line.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/co-packers/`
+- **title:** Co-Packer Packaging Automation for Contract Packagers | TRF
+- **h1:** Co-packer automation for contract packagers running high SKU mix and frequent changeovers.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/confectionery/`
+- **title:** Confectionery Packaging Automation | TRF
+- **h1:** Confectionery packaging automation that keeps high-mix candy and chocolate lines moving to the pallet.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/consumer-packaged-goods/`
+- **title:** CPG Packaging Automation for Brand Owners | TRF
+- **h1:** CPG packaging automation for brand owners with growing SKU counts and multi-line plants.
+- **secoes (11):** hero has-img / benefits / sec light split auto / sec dark / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/dairy-and-cheese/`
+- **title:** Dairy Packaging Automation | TRF
+- **h1:** Dairy packaging automation after the filler: Case packing, hygienic conveying and palletizing.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/e-commerce-and-distribution/`
+- **title:** Distribution Center Palletizing | TRF
+- **h1:** Distribution center palletizing and case handling for e-commerce and distribution operations.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/food-processing/`
+- **title:** Food Processing Automation | TRF Industrial Automation
+- **h1:** Food processing automation that takes packaged food from case packing to a shipping-ready pallet.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/frozen-food-and-ice-cream/`
+- **title:** Frozen Food Packaging Automation | TRF Industrial Automation
+- **h1:** Frozen food packaging automation for IQF bags, frozen meals and ice cream, from case packing to pallet.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/household-and-cleaning-products/`
+- **title:** Household Products Packaging Automation | TRF
+- **h1:** Household products packaging automation for heavy cases, high SKU counts and stable pallets.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark split auto tbl / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/paper-and-packaging/`
+- **title:** Paper and Packaging Automation | TRF Industrial Automation
+- **h1:** Paper and packaging automation for bundles, cases and cartons at the end of the converting line.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/personal-care-and-cosmetics/`
+- **title:** Personal Care Packaging Automation for Cosmetics | TRF
+- **h1:** Personal care packaging automation for high-mix cosmetics lines, from case packing to the pallet.
+- **secoes (11):** hero has-img / benefits / sec light split auto / sec dark split auto tbl / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/pet-food/`
+- **title:** Pet Food Packaging Automation | TRF Industrial Automation
+- **h1:** Pet food packaging automation for bags, pouches and cases, from case packing to the pallet.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto tbl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/pharmaceutical/`
+- **title:** Pharmaceutical Packaging Automation | TRF
+- **h1:** Pharmaceutical packaging automation for lower-speed, high-mix lines that change products often.
+- **secoes (10):** hero has-img / benefits / sec light split auto / sec dark split auto tbl / sec light split auto tbl / sec dark split auto inl / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/industries/protein-processing/`
+- **title:** Protein Plant End-of-Line Automation | TRF
+- **h1:** Protein plant end-of-line automation for conveying, case packing and palletizing.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto / sec light / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/locations/`
+- **title:** TRF Industrial Automation Locations and Coverage
+- **h1:** TRF Industrial Automation locations across the United States.
+- **secoes (10):** hero / benefits / sec light / sec dark split auto / sec light split auto tbl / sec dark / sec light split auto / sec light faq / sec dark / final
+
+```
+<main>
+  <section.hero>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.btns.cta-btns>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/parts-and-service/`
+- **title:** TRFCare, Parts and Service | TRF Industrial Automation
+- **h1:** TRFCare, parts and service for your TRF equipment.
+- **secoes (11):** hero has-img / benefits / nums svc-nums / sec light split auto / sec dark split auto / sec light split auto / sec dark split auto / sec light faq / sec light split auto / sec light / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.nums.svc-nums>
+    <div.wrap.nums-in>
+      <div.num.rv>
+      <div.num.rv>
+      <div.num.rv>
+      <div.num.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <ul.tiles>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/privacy-choices/`
+- **title:** Your Privacy Choices | TRF Industrial Automation
+- **h1:** Your privacy choices.
+- **secoes (8):** hero hero-compact has-img / sec roi / sec light / sec dark / sec light / sec dark / sec light / final
+
+```
+<main>
+  <section.hero.hero-compact.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.wrap.hero-in>
+  <section.sec.roi#privacy-request>
+    <div.wrap>
+      <form.roi-form.priv-form>
+        <div.roi-grid>
+      <div.roi-out.cf-ok>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/privacy-policy/`
+- **title:** Privacy Policy | TRF Industrial Automation
+- **h1:** TRF Industrial Automation privacy policy.
+- **secoes (20):** hero has-img / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.btns.cta-btns>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/`
+- **title:** Packaging Automation Resources | TRF Industrial Automation
+- **h1:** Packaging automation resources to research, compare and justify your project.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/blog/`
+- **title:** Packaging Automation Blog | TRF Industrial Automation
+- **h1:** The packaging automation blog for teams automating the end of the line.
+- **secoes (8):** hero has-img / benefits / sec light split auto / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/blog/how-much-does-a-robotic-palletizer-cost/`
+- **title:** How Much Does a Robotic Palletizer Cost? | TRF
+- **h1:** How much does a robotic palletizer cost? List prices, cost drivers and payback.
+- **secoes (11):** hero has-img / benefits / sec light split auto tbl / sec dark split auto / sec light / sec dark split auto tbl / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/case-studies/`
+- **title:** End-of-Line Automation Case Studies | TRF
+- **h1:** End-of-line automation case studies: Palletizing, case packing and conveying in production.
+- **secoes (8):** hero has-img / benefits / sec light / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.c3>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+        <article.scard.rv>
+          <div.scard-img>
+          <div.scard-b>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/case-studies/avon/`
+- **title:** Avon Conveyor System Case Study | TRF Industrial Automation
+- **h1:** Avon conveyor system case study: Conveying, case handling and vertical transport as one flow.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto tbl / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/case-studies/custom-foods/`
+- **title:** Cold Chain Palletizing Case Study | TRF
+- **h1:** Cold chain palletizing case study: Robotic palletizing below freezing at Custom Foods.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto tbl / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/case-studies/lodge-cast-iron/`
+- **title:** End-of-Line Automation Case Study | TRF
+- **h1:** End-of-line automation case study: Ergonomic case packing and robotic palletizing at Lodge Cast Iron.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/downloads/`
+- **title:** Request Platform Specifications | TRF
+- **h1:** Request platform specifications for TRF palletizing, case packing and conveyor systems.
+- **secoes (8):** hero / benefits / sec light split auto / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/e-books/`
+- **title:** Packaging Automation E-Books: What to Read | TRF
+- **h1:** Packaging automation e-books: What TRF publishes today to plan your project.
+- **secoes (7):** hero has-img / benefits / sec light / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+      <div.btns.cta-btns>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/trade-shows-and-events/`
+- **title:** Trade Shows and Events | TRF Industrial Automation
+- **h1:** Trade shows and events where you can meet TRF Industrial Automation in person.
+- **secoes (9):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/trade-shows-and-events/pack-expo-international-2026/`
+- **title:** PACK EXPO International 2026 | TRF Industrial Automation
+- **h1:** Meet TRF Industrial Automation at PACK EXPO International 2026 in Chicago, October 18 to 21.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto tbl / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/webinars/`
+- **title:** Packaging Automation Webinars: Where to Learn | TRF
+- **h1:** Packaging automation webinars: Where to see TRF and ask your questions today.
+- **secoes (7):** hero has-img / benefits / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/resources/white-papers/`
+- **title:** End-of-Line Automation White Papers: What to Read | TRF
+- **h1:** End-of-line automation white papers: Where TRF publishes its technical detail today.
+- **secoes (7):** hero has-img / benefits / sec light / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+      <div.btns.cta-btns>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/`
+- **title:** Robotic Palletizing Systems | TRF Industrial Automation
+- **h1:** Robotic palletizing systems engineered for food, beverage and CPG production lines.
+- **secoes (13):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark / sec light split auto tbl / sec dark / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.c3>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+        <article.scard.rv>
+          <div.card-link>
+            <div.scard-img>
+            <div.scard-b>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.gal>
+        <figure.gal-i.rv>
+        <figure.gal-i.rv>
+        <figure.gal-i.rv>
+        <figure.gal-i.rv>
+        <figure.gal-i.rv>
+        <figure.gal-i.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/bag-palletizer/`
+- **title:** Bag Palletizer: Robotic Bag Palletizing Systems | TRF
+- **h1:** Bag palletizer sized to your bag weight and line rate.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/box-palletizer/`
+- **title:** Box Palletizer: Robotic Box Palletizing Systems | TRF
+- **h1:** Box palletizer sized to your box mix and line rate.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto / sec light split auto tbl / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/bucket-palletizer/`
+- **title:** Pail Palletizer and Bucket Palletizer Systems | TRF
+- **h1:** Pail palletizer and bucket palletizer sized to your line.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto inl / sec dark split auto / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/bundle-palletizer/`
+- **title:** Bundle Palletizer: Robotic Bundle Palletizing Systems | TRF
+- **h1:** Bundle palletizer sized to your bundles and line rate.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark / sec light split auto tbl / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/carton-palletizer/`
+- **title:** Carton Palletizer: Robotic Carton Palletizing Systems | TRF
+- **h1:** Carton palletizer sized to your cartons and line rate.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto tbl / sec light split auto / sec dark / sec light split auto / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/case-palletizer/`
+- **title:** Case Palletizer for Sealed Shipping Cases | TRF
+- **h1:** Case palletizer sized to your case packer output.
+- **secoes (11):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto inl / sec dark split auto tbl / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/cobot-palletizer/`
+- **title:** TRFCobot Cobot Palletizer for High-Mix Lines | TRF
+- **h1:** TRFCobot is the cobot palletizer built for short runs and frequent SKU changes.
+- **secoes (15):** hero has-img / pp / sec light split auto / sec roi roi-fixed / sec dark / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light / sec dark / sec roi catalog / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.roi.roi-fixed#roi>
+    <div.wrap>
+      <form.roi-form>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-prev>
+          <div.roi-kpis.roi-kpis4>
+        <div.roi-grid.roi-send>
+      <div.roi-out>
+        <div.roi-kpis.roi-kpis4>
+        <div.roi-warn>
+        <div.roi-bars>
+          <div.bar-row>
+          <div.bar-row>
+        <div.roi-calc>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.light>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfcobot>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/robotic-palletizing/compact-palletizer/`
+- **title:** TRFCompact Robotic Case Palletizer, Small Footprint | TRF
+- **h1:** TRFCompact fits a robotic case palletizer into the footprint of a brownfield line.
+- **secoes (15):** hero has-img / pp / sec light split auto / sec roi roi-fixed / sec dark / sec light / sec dark split auto inl / sec light split auto inl / sec dark split auto / sec light / sec dark / sec roi catalog / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.roi.roi-fixed#roi>
+    <div.wrap>
+      <form.roi-form>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-prev>
+          <div.roi-kpis.roi-kpis4>
+        <div.roi-grid.roi-send>
+      <div.roi-out>
+        <div.roi-kpis.roi-kpis4>
+        <div.roi-warn>
+        <div.roi-bars>
+          <div.bar-row>
+          <div.bar-row>
+        <div.roi-calc>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.dark.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.light>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfcompact>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/robotic-palletizing/custom-palletizer/`
+- **title:** Custom Palletizing Systems Engineered Around Your Line | TRF
+- **h1:** Custom palletizing systems, engineered around your line.
+- **secoes (13):** hero has-img / benefits / sec light split auto inl / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto tbl / sec dark split auto tbl / sec dark / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <ul.tiles>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+        <li.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/drum-palletizer/`
+- **title:** Drum Palletizer: Robotic Drum Palletizing Systems | TRF
+- **h1:** Drum palletizer evaluated by drum weight and line rate.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto tbl / sec light split auto tbl / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/high-speed-palletizer/`
+- **title:** TRFSpeed: High-Speed Palletizing System | TRF
+- **h1:** TRFSpeed is a high-speed palletizing system engineered for multi-line, 24/7 production.
+- **secoes (16):** hero has-img / pp / sec light split auto / sec roi roi-fixed / sec dark / sec light / sec dark / sec light split auto inl / sec dark split auto / sec light / sec dark split auto / sec dark / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.roi.roi-fixed#roi>
+    <div.wrap>
+      <form.roi-form>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-prev>
+          <div.roi-kpis.roi-kpis4>
+        <div.roi-grid.roi-send>
+      <div.roi-out>
+        <div.roi-kpis.roi-kpis4>
+        <div.roi-warn>
+        <div.roi-bars>
+          <div.bar-row>
+          <div.bar-row>
+        <div.roi-calc>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.dark>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.light.split.auto.inl>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+    <div.split-col>
+      <div.split-img.rv>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.light>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfspeed>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/robotic-palletizing/ks/lenexa/`
+- **title:** Robotic Palletizing in Lenexa, KS | TRF
+- **h1:** Robotic palletizing for Lenexa, KS manufacturers.
+- **secoes (12):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark split auto / sec light split auto tbl / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/robotic-palletizer-cost/`
+- **title:** Robotic Palletizer Cost Guide: Price, Payback and ROI | TRF
+- **h1:** Robotic palletizer cost: What drives the price, from entry-level cobots to high-speed multi-line systems.
+- **secoes (15):** hero has-img / benefits / sec light split auto tbl / sec dark / sec light split auto tbl / sec dark split auto / sec light / sec dark split auto / sec roi / sec light split auto tbl / sec dark split auto / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.roi#roi>
+    <div.wrap>
+      <form.roi-form>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-prev>
+          <div.roi-kpis.roi-kpis4>
+        <div.roi-grid.roi-send>
+      <div.roi-out>
+        <div.roi-kpis.roi-kpis4>
+        <div.roi-warn>
+        <div.roi-bars>
+          <div.bar-row>
+          <div.bar-row>
+        <div.roi-calc>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/robotic-palletizing/subzero-palletizer/`
+- **title:** TRFSubzero: Subzero Palletizer for Frozen Lines | TRF
+- **h1:** TRFSubzero is the subzero palletizer built for production below 32°F.
+- **secoes (14):** hero has-img / pp / sec light split auto inl / sec light / sec dark / sec light split auto / sec dark / sec light split auto / sec dark / sec dark / sec roi catalog / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.pp>
+    <div.wrap.pp-row>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+      <div.pp-i.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.spec-tiles>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+        <div.st.rv>
+      <div.table-wrap.spec>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.cards.icards>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+        <article.ic.rv>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+    <div.split-img.rv>
+<section.sec.dark>
+  <div.wrap.prose>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <ul.checks>
+      <ul.checks>
+    <div.split-img.rv>
+<section.sec.dark>
+  <div.wrap.prose>
+    <div.table-wrap>
+<section.sec.dark>
+  <div.wrap.prose>
+    <ul.tiles>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+      <li.rv>
+<section.sec.roi.catalog#catalog-trfsubzero>
+  <div.wrap>
+    <form.roi-form.catalog-form>
+      <div.roi-grid>
+    <div.roi-out.cf-ok>
+<section.sec.light.faq>
+  <div.wrap>
+    <div.faq-grid>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+      <details.qa>
+        <div.ans>
+<section.sec.light.split.auto>
+  <div.wrap.split-in>
+    <div.prose>
+      <div.btns.cta-btns>
+    <div.split-img.rv>
+<section.final>
+  <div.hero-grid>
+  <div.final-radial>
+  <div.wrap.final-in.rv>
+    <div.btns>
+```
+
+## `/robotic-palletizing/tray-palletizer/`
+- **title:** Tray Palletizer: Robotic Tray Palletizing Systems | TRF
+- **h1:** Tray palletizer sized to your line and tray weight.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto inl / sec dark split auto / sec light split auto tbl / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.inl>
+    <div.wrap.split-in>
+      <div.prose>
+        <ul.checks>
+      <div.split-col>
+        <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto.tbl>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+    <div.wrap.prose.tbl-tail>
+      <div.table-wrap>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/terms-of-use/`
+- **title:** Terms of Use | TRF Industrial Automation
+- **h1:** TRF Industrial Automation terms of use.
+- **secoes (23):** hero has-img / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / sec dark / sec light / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+  <section.sec.dark>
+    <div.wrap.prose>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.btns.cta-btns>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/tools/`
+- **title:** Palletizing Planning Tools | TRF Industrial Automation
+- **h1:** Palletizing planning tools to estimate payback and build your capital request.
+- **secoes (10):** hero has-img / benefits / sec light / sec dark split auto / sec light split auto / sec dark / sec light split auto / sec light faq / sec dark split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```
+
+## `/tools/palletizing-roi-calculator/`
+- **title:** Palletizer ROI Calculator | TRF Industrial Automation
+- **h1:** Robotic palletizer ROI calculator.
+- **secoes (10):** hero has-img / benefits / sec roi / sec light / sec dark / sec light split auto / sec dark split auto / sec light faq / sec light split auto / final
+
+```
+<main>
+  <section.hero.has-img>
+    <div.hero-shade>
+    <div.hero-grid>
+    <div.hero-radial>
+    <div.wrap.hero-in>
+      <div.btns>
+  <section.benefits>
+    <div.wrap.ben-row>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+      <div.ben.rv>
+  <section.sec.roi#roi>
+    <div.wrap>
+      <form.roi-form>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-grid>
+        <div.roi-prev>
+          <div.roi-kpis.roi-kpis4>
+        <div.roi-grid.roi-send>
+      <div.roi-out>
+        <div.roi-kpis.roi-kpis4>
+        <div.roi-warn>
+        <div.roi-bars>
+          <div.bar-row>
+          <div.bar-row>
+        <div.roi-calc>
+  <section.sec.light>
+    <div.wrap.prose>
+      <div.table-wrap>
+  <section.sec.dark>
+    <div.wrap.prose>
+      <div.table-wrap>
+      <div.table-wrap>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.dark.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+      <div.split-img.rv>
+  <section.sec.light.faq>
+    <div.wrap>
+      <div.faq-grid>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+        <details.qa>
+          <div.ans>
+  <section.sec.light.split.auto>
+    <div.wrap.split-in>
+      <div.prose>
+        <div.btns.cta-btns>
+      <div.split-img.rv>
+  <section.final>
+    <div.hero-grid>
+    <div.final-radial>
+    <div.wrap.final-in.rv>
+      <div.btns>
+```

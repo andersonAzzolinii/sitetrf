@@ -1,0 +1,176 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   Base: body, titulos, .wrap, e os micro-componentes globais.
+   Valores conforme 08-design-system.md §1.4 (escala RESOLVIDA — ja considera
+   os patches do fim do site.css original).
+   ─────────────────────────────────────────────────────────────────────────── */
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: #000;
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+  font-family: var(--display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* ── container ───────────────────────────────────────────────────────────── */
+
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  position: relative;
+}
+
+/* ── micro ───────────────────────────────────────────────────────────────── */
+
+.lime {
+  color: var(--green);
+}
+
+/* nowrap pontual, usado no original para nao quebrar termos tecnicos */
+.nb {
+  white-space: nowrap;
+}
+
+/* kicker com o traco verde. No original o tamanho final e .8rem (o .72rem do
+   topo do arquivo foi sobrescrito no patch de QA 28/09). */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+  color: var(--grey);
+}
+
+.eyebrow::before {
+  content: '';
+  width: 22px;
+  height: 2px;
+  background: var(--green);
+  flex: none;
+}
+
+/* a seta e o caractere literal ->, nunca um icone */
+.arr {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.22s ease;
+}
+
+/* ── o lockup de marca: TRF + nome da plataforma ─────────────────────────── */
+
+.pn {
+  font-family: var(--display);
+  font-weight: 300;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.pn b {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.pn.pn-alone b {
+  font-weight: 800;
+}
+
+/* dentro de texto corrido o peso cai para 400 */
+p .pn,
+li .pn,
+td .pn,
+small .pn,
+summary .pn,
+.ans .pn,
+.lead .pn,
+.ben-p .pn,
+.scard p .pn {
+  font-weight: 400;
+}
+
+/* em titulo, o lockup herda o peso do titulo */
+h1 .pn-alone,
+h2 .pn-alone,
+h3 .pn-alone {
+  font-weight: inherit;
+}
+
+h1 .pn-alone b,
+h2 .pn-alone b,
+h3 .pn-alone b {
+  font-weight: inherit;
+}
+
+/* ── reveal on scroll ────────────────────────────────────────────────────── */
+
+.js .rv {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.js .rv.in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rv {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── keyframes compartilhados ────────────────────────────────────────────── */
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+    margin-top: -6px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,32 @@
+/* ---------------------------------------------------------------------------
+   A ordem E a cascata — mudar isto quebra overrides silenciosamente.
+
+   1. tokens / reset / fontes   base tecnica
+   2. base                      tipografia e micro-componentes globais
+   3. layout                    secoes claras/escuras e o `.prose` GENERICO
+   4. components/*              os blocos, que precisam sobrescrever o .prose
+                                (ex.: `.prose > ul {max-width:70ch}` estrangula
+                                 `ul.inds`; `.prose img` injeta margem e chanfro
+                                 nas fotos dos cards). Mesma especificidade, so
+                                 vence quem vem depois — por isso components
+                                 fica abaixo de layout.
+   5. chrome                    header/footer, que sobrescrevem primitivos
+                                (ex.: `.hdr-cta` sobre `.btn`)
+   --------------------------------------------------------------------------- */
+
+@import './00-tokens.css';
+@import './01-reset.css';
+@import './02-fonts.css';
+@import './03-base.css';
+
+@import './04-layout.css';
+
+@import './components/buttons.css';
+@import './components/hero.css';
+@import './components/home-blocks.css';
+@import './components/cards.css';
+@import './components/plats.css';
+@import './components/internal.css';
+@import './components/roi.css';
+
+@import './05-chrome.css';

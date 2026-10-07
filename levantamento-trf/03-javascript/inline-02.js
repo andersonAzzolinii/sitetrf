@@ -1,0 +1,1 @@
+(function(){try{if(navigator.globalPrivacyControl){document.documentElement.setAttribute('data-gpc','1');window.TRF_GPC=true}}catch(e){}})();

@@ -1,0 +1,1 @@
+document.querySelectorAll('nav.main details').forEach(function(d){d.addEventListener('toggle',function(){if(d.open)document.querySelectorAll('nav.main details').forEach(function(o){if(o!==d)o.open=false})})});document.addEventListener('click',function(e){if(!e.target.closest('nav.main'))document.querySelectorAll('nav.main details[open]').forEach(function(o){o.open=false})});

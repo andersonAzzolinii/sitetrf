@@ -1,0 +1,247 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   Layout de secao: o ritmo claro/escuro do site e o bloco .prose.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+.sec {
+  position: relative;
+  padding: 64px 0;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .sec {
+    padding: 84px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .sec {
+    padding: 72px 0;
+  }
+}
+
+.sec.light {
+  background: var(--white);
+  color: #000;
+}
+
+.sec.dark {
+  background: #000;
+  color: #fff;
+}
+
+/* o grid de pontos esmaecido no topo das secoes escuras */
+.sec.dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 10px 10px;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent 60%);
+  mask-image: linear-gradient(180deg, #000, transparent 60%);
+}
+
+/* ── titulos de secao ────────────────────────────────────────────────────── */
+
+.sec h2 {
+  font-weight: 700;
+  line-height: 1.05;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  margin: 0 0 28px;
+  max-width: 22ch;
+}
+
+.sec h3 {
+  font-weight: 600;
+  font-size: clamp(1.3rem, 1.8vw, 1.6rem);
+  line-height: 1.2;
+  margin: 44px 0 12px;
+}
+
+/* cabecalho de secao em 2 colunas (h2 | texto de apoio) */
+.sec-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 64px;
+  align-items: end;
+  margin-bottom: 44px;
+}
+
+.sec-head h2 {
+  margin: 0;
+}
+
+.sec-head p {
+  margin: 0;
+  max-width: 60ch;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .sec-head {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── .prose: o bloco de conteudo mais usado do site ──────────────────────── */
+
+.prose > p,
+.prose > ul,
+.prose > ol {
+  max-width: 70ch;
+}
+
+.prose p,
+.prose li {
+  font-size: 1.04rem;
+}
+
+.sec.dark .prose p,
+.sec.dark .prose li {
+  color: var(--on-dark);
+}
+
+.sec.light .prose p,
+.sec.light .prose li {
+  color: var(--ink);
+}
+
+.sec.dark .prose strong {
+  color: #fff;
+}
+
+.prose a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+.sec.light .prose a {
+  text-decoration-color: #000;
+}
+
+/* em secao clara, o link ganha fundo verde no hover */
+.sec.light .prose a:hover {
+  background: var(--green);
+}
+
+.sec.dark .prose a {
+  color: #fff;
+  text-decoration-color: var(--green);
+}
+
+.sec.dark .prose a:hover {
+  color: var(--green);
+}
+
+.prose ol:not(.process) {
+  padding-left: 1.3em;
+}
+
+.prose img {
+  display: block;
+  width: 100%;
+  margin: 40px 0;
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+}
+
+/* No original estas duas regras sao presas ao `style="width:100%"` inline que
+   o gerador punha nas imagens de corpo. Aqui valem pela POSICAO, que da o
+   mesmo resultado sem depender de style inline: sem elas a imagem ocuparia a
+   largura inteira do .prose (1240px -> 698px de altura em vez de 420px). */
+.wrap.prose > img {
+  max-width: 560px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.prose > p > img {
+  max-width: 620px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 18px 0;
+}
+
+/* ── o lockup .pn inverte de cor conforme o contexto ─────────────────────── */
+
+.sec.dark h2 .pn b,
+.sec.dark h3 .pn b {
+  color: var(--green);
+}
+
+/* em secao clara o "TRF" vira preto... */
+.sec.light .pn b,
+.sec.light h2 .pn b,
+.sec.light h3 .pn b {
+  color: #000;
+}
+
+/* ...excetos estes, que voltam a verde mesmo em secao clara */
+.sec.light .scard .pn b,
+.sec.light ul.tiles a .pn b,
+.sec.light ol.process .pn b,
+.sec.light th .pn b {
+  color: var(--green);
+}
+
+.sec.light ul.tiles a:hover .pn b {
+  color: #000;
+}
+
+/* ── lista com marcador quadrado chanfrado ───────────────────────────────── */
+
+ul.checks {
+  list-style: none;
+  padding: 0;
+}
+
+ul.checks li {
+  position: relative;
+  padding-left: 30px;
+  margin: 12px 0;
+}
+
+ul.checks li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 14px;
+  height: 14px;
+  background: #000;
+  clip-path: polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 0 100%);
+}
+
+.sec.light ul.checks li::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: calc(0.5em + 3px);
+  width: 8px;
+  height: 8px;
+  background: var(--green);
+}
+
+.sec.dark ul.checks li::before {
+  background: var(--green);
+}
+
+/* ── ornamentos de fundo ─────────────────────────────────────────────────── */
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 10px 10px;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 40%, transparent 68%);
+  mask-image: linear-gradient(90deg, #000 0, #000 40%, transparent 68%);
+}
+
+.brand-t {
+  position: absolute;
+  color: var(--green);
+  pointer-events: none;
+}

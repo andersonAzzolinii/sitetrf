@@ -1,0 +1,567 @@
+/* ---------------------------------------------------------------------------
+   Header, mega menu, breadcrumbs e footer.
+   Valores RESOLVIDOS (o site.css original sobrescreve varios deles no fim do
+   arquivo — ver 08-design-system.md secao 2.1).
+   --------------------------------------------------------------------------- */
+
+header.site {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: rgba(0, 0, 0, 0.94);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-dark-soft);
+  transition: background 0.25s ease;
+}
+
+header.site.scrolled {
+  background: rgba(0, 0, 0, 0.98);
+  border-bottom-color: rgba(192, 255, 0, 0.25);
+}
+
+/* min-height resolvido: 100px, 80px apos o scroll (o 80/66 do topo do
+   arquivo original foi sobrescrito no patch "logo maior e legivel") */
+.bar {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  transition: min-height 0.25s ease;
+}
+
+@media (min-width: 1024px) {
+  .bar {
+    padding: 0 32px;
+  }
+}
+
+header.site.scrolled .bar {
+  min-height: 80px;
+}
+
+/* ---- logo: 56px resolvido (nao os 28px do topo do arquivo) -------------- */
+
+.logo {
+  flex: none;
+  display: block;
+}
+
+.logo img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
+header.site.scrolled .logo img {
+  height: 48px;
+}
+
+/* ---- nav ---------------------------------------------------------------- */
+
+nav.main {
+  display: flex;
+  gap: 0;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+nav.main details {
+  position: relative;
+}
+
+nav.main summary,
+nav.main a.navlink {
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: var(--display);
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 10px 10px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* o sublinhado verde que cresce da esquerda */
+nav.main summary::after,
+nav.main a.navlink::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 4px;
+  height: 2px;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
+}
+
+nav.main summary:hover::after,
+nav.main a.navlink:hover::after,
+nav.main a.navlink[aria-current]::after,
+nav.main details[open] summary::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 1500px) {
+  nav.main {
+    gap: 8px;
+  }
+  nav.main summary,
+  nav.main a.navlink {
+    font-size: 0.92rem;
+    padding: 10px 12px;
+  }
+  nav.main summary::after,
+  nav.main a.navlink::after {
+    left: 12px;
+    right: 12px;
+  }
+}
+
+/* ---- CTA do header ------------------------------------------------------ */
+/* Precisa vir ANTES da media query abaixo, que o encolhe na faixa apertada. */
+
+.hdr-cta {
+  padding: 12px 18px;
+  font-size: 0.74rem;
+  flex: none;
+}
+
+/* faixa apertada: encolhe tudo para caber em uma linha so */
+@media (min-width: 1261px) and (max-width: 1480px) {
+  .bar {
+    gap: 12px;
+    padding: 0 20px;
+  }
+  .logo img {
+    height: 48px;
+  }
+  nav.main summary,
+  nav.main a.navlink {
+    font-size: 0.84rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .hdr-cta {
+    font-size: 0.68rem;
+    padding: 12px 14px;
+    white-space: nowrap;
+  }
+}
+
+/* ---- mega menu ---------------------------------------------------------- */
+
+.mega {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 20px);
+  background: #000;
+  border: 1px solid var(--line-dark);
+  border-top: 2px solid var(--green);
+  padding: 24px 26px;
+  display: flex;
+  gap: 34px;
+  min-width: 300px;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  animation: drop 0.2s ease;
+}
+
+.mega .col {
+  min-width: 200px;
+}
+
+.mega .h {
+  font-family: var(--display);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.mega a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 6px 0;
+  transition:
+    color 0.15s ease,
+    padding 0.15s ease;
+}
+
+.mega a:hover {
+  color: var(--green);
+  padding-left: 4px;
+}
+
+/* o botao verde no pe da coluna */
+.mega .hub {
+  margin-top: 16px;
+  padding: 11px 16px;
+  background: var(--green);
+  color: #000;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+}
+
+.mega .hub:hover {
+  color: #000;
+  padding-left: 16px;
+  filter: brightness(1.06);
+}
+
+/* ---- mobile ------------------------------------------------------------- */
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 1260px) {
+  .bar {
+    flex-wrap: wrap;
+    min-height: 80px;
+    padding-block: 10px;
+    gap: 10px;
+  }
+
+  .logo img,
+  header.site.scrolled .logo img {
+    height: 50px;
+  }
+
+  .menu-btn {
+    display: block;
+    margin-left: auto;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 10px 16px;
+    font-family: var(--display);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    min-height: 44px;
+    cursor: pointer;
+  }
+
+  nav.main {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8px 0 16px;
+  }
+
+  header.site.open nav.main {
+    display: flex;
+  }
+
+  nav.main summary,
+  nav.main a.navlink {
+    font-size: 1rem;
+    padding: 14px 4px;
+    border-bottom: 1px solid var(--line-dark-soft);
+  }
+
+  /* no mobile o mega vira um bloco empilhado com a barra verde a esquerda */
+  .mega {
+    position: static;
+    transform: none;
+    flex-direction: column;
+    gap: 12px;
+    border: 0;
+    border-left: 2px solid var(--green);
+    padding: 6px 14px;
+    min-width: 0;
+    clip-path: none;
+  }
+
+  .hdr-cta {
+    display: none;
+  }
+
+  header.site.open .hdr-cta {
+    display: inline-flex;
+    order: 10;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img,
+  header.site.scrolled .logo img {
+    height: 36px;
+  }
+  .bar {
+    flex-wrap: nowrap;
+  }
+  header.site.open .bar {
+    flex-wrap: wrap;
+  }
+}
+
+/* ---- breadcrumbs -------------------------------------------------------- */
+
+.crumbs {
+  background: #000;
+  color: var(--grey);
+  font-size: 0.8rem;
+  border-bottom: 1px solid var(--line-dark-faint);
+}
+
+.crumbs ol {
+  list-style: none;
+  margin: 0 auto;
+  max-width: var(--wrap);
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+@media (min-width: 1024px) {
+  .crumbs ol {
+    padding: 12px 40px;
+  }
+}
+
+.crumbs li + li::before {
+  content: '/';
+  margin-right: 6px;
+  color: #555;
+}
+
+.crumbs a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.crumbs a:hover {
+  color: var(--green);
+}
+
+.crumbs [aria-current] {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .crumbs ol {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .crumbs li {
+    flex: none;
+  }
+  .crumbs li:last-child {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* ---- footer ------------------------------------------------------------- */
+
+footer.site {
+  background: #000;
+  color: var(--grey);
+  border-top: 1px solid var(--line-dark);
+}
+
+.foot {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 64px 20px 40px;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(4, 1fr);
+  gap: 32px;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1024px) {
+  .foot {
+    padding: 76px 40px 44px;
+  }
+}
+
+.foot a {
+  color: #d6d6d6;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+  transition: color 0.15s ease;
+}
+
+.foot a:hover {
+  color: var(--green);
+}
+
+.foot .h {
+  color: #fff;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.foot .tag {
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 20px 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.foot-logo {
+  height: 44px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* `.foot a` (0,1,1) venceria `.foot-event` (0,1,0) — por isso o seletor
+   qualificado. No original isto era resolvido com !important.
+   O `display` fica como `block`, herdado de `.foot a`: no original o
+   `inline-block` declarado em `.foot-event` perdia a cascata e nunca valeu. */
+.foot a.foot-event {
+  margin-top: 6px;
+  color: var(--green);
+  font-family: var(--display);
+  font-weight: 600;
+}
+
+.foot a.foot-event:hover {
+  color: #fff;
+}
+
+.foot-grp {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+@media (max-width: 1100px) {
+  .foot {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .foot {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- barra legal -------------------------------------------------------- */
+
+.legal {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 18px 20px 30px;
+  border-top: 1px solid var(--line-dark-soft);
+  font-size: 0.78rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+  .legal {
+    padding: 18px 40px 30px;
+  }
+}
+
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+
+.legal-links a {
+  display: inline;
+  padding: 0;
+  color: #bdbdbd;
+}
+
+.legal-links a:hover {
+  color: var(--green);
+}
+
+.legal .dev {
+  font-size: 0.72rem;
+  color: #8a8a8a;
+}
+
+.legal .dev a {
+  display: inline;
+  color: #bdbdbd;
+  padding: 0;
+  text-decoration: none;
+}
+
+.legal .dev a:hover {
+  color: var(--green);
+}
+
+/* o icone azul do opt-out CCPA, que tem cores proprias */
+.pc-icon {
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+  vertical-align: -2px;
+  margin-left: 6px;
+}
+
+/* ---- redes sociais ------------------------------------------------------ */
+
+ul.social {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+ul.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-decoration: none;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+ul.social a:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+ul.social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}

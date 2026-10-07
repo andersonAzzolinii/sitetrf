@@ -1,0 +1,521 @@
+/* ---------------------------------------------------------------------------
+   Hero. Tres variantes: home (video), image (padrao) e compact.
+   --------------------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* ---- hero padrao: imagem ocupando a direita ----------------------------- */
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 32%;
+  width: 68%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-width: none;
+}
+
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      90deg,
+      #000 0%,
+      #000 32%,
+      rgba(0, 0, 0, 0.82) 44%,
+      rgba(0, 0, 0, 0.18) 72%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    linear-gradient(0deg, #000 0%, transparent 30%);
+}
+
+.hero-in {
+  position: relative;
+  z-index: 1;
+  padding-top: 88px;
+  padding-bottom: 80px;
+  min-height: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-in {
+    min-height: 760px;
+  }
+}
+
+.hero.has-entries .hero-in {
+  min-height: 600px;
+  padding-bottom: 56px;
+}
+
+.hero .eyebrow {
+  color: #dcdcdc;
+}
+
+.hero h1 {
+  font-weight: 700;
+  line-height: 1.02;
+  font-size: clamp(2.5rem, 5.4vw, 4.6rem);
+  margin: 0 0 18px;
+  max-width: 14ch;
+}
+
+.solution {
+  font-family: var(--display);
+  font-weight: 300;
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  line-height: 1.3;
+  color: var(--white);
+  margin: 0 0 22px;
+  max-width: 36ch;
+}
+
+.hero .lead {
+  max-width: 560px;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--on-dark-soft);
+  margin: 0 0 34px;
+  animation: up 0.8s 0.12s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.hero .btns {
+  animation: up 0.8s 0.22s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* ---- variante compacta -------------------------------------------------- */
+
+.hero.hero-compact .hero-in {
+  min-height: 0;
+  padding-top: 56px;
+  padding-bottom: 44px;
+}
+
+.hero.hero-compact h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  max-width: 20ch;
+}
+
+/* ---- o radial verde girando -------------------------------------------- */
+
+.hero-radial,
+.final-radial {
+  position: absolute;
+  width: 720px;
+  height: 720px;
+  right: -220px;
+  top: -200px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22448%2028%201024%201024%22%3E%3Cpath%20fill%3D%22%23C0FF00%22%20d%3D%22M1091.9%2C292.9l-1.9-1-43.1%2C81.5%2C1.9%2C1%2C43.1-81.5ZM1039.4%2C150.8l-2.1-.4-18.2%2C90.4%2C2.1.4%2C18.2-90.4ZM1108.8%2C47.8l-2-.6-26.5%2C88.3%2C2%2C.6%2C26.5-88.3ZM1041.5%2C272l-2-.6-26.5%2C88.3%2C2%2C.6%2C26.5-88.3ZM1113.3%2C173.6l-2-.8-35.4%2C85.2%2C2%2C.8%2C35.4-85.2ZM993.2%2C380.3l-2.1-.4-18.2%2C90.4%2C2.1.4%2C18.2-90.4ZM1380.1%2C578.1l-.2%2C2.1%2C91.8%2C8.6.2-2.1-91.8-8.6ZM1008.7%2C28.1l-2.1-.2-8.5%2C91.8%2C2.1.2%2C8.5-91.8ZM1349.5%2C617.4l-90.4-18.2-.4%2C2.1%2C90.4%2C18.2.4-2.1ZM941.9%2C352.9l-9.4-91.7-2.1.2%2C9.4%2C91.7%2C2.1-.2ZM1327.1%2C691.4l-85.1-35.4-.8%2C2%2C85.1%2C35.4.8-2ZM1357.1%2C538.9h-92.2v2.1h92.2v-2.1ZM1201.3%2C86l-1.9-1-43.1%2C81.5%2C1.9%2C1%2C43.1-81.5ZM1181.9%2C210.6l-1.8-1.2-51.3%2C76.6%2C1.8%2C1.2%2C51.3-76.6ZM1285.4%2C141.9l-1.6-1.3-58.2%2C71.5%2C1.6%2C1.3%2C58.2-71.5ZM1285.4%2C271.4l71-58.9-1.4-1.6-71%2C58.9%2C1.4%2C1.6ZM796.9%2C541.1h92.2v-2.1h-92.2v2.1ZM691.4%2C460.5l88.3%2C26.5.6-2-88.3-26.5-.6%2C2ZM742.1%2C364l71.5%2C58.2%2C1.3-1.6-71.5-58.2-1.3%2C1.6ZM809.8%2C476.4l-.8%2C2%2C85.1%2C35.4.8-2-85.1-35.4ZM918%2C120.1l-9.4-91.7-2.1.2%2C9.4%2C91.7%2C2.1-.2ZM773.2%2C560.2l-.2-2.1-91.7%2C9.4.2%2C2.1%2C91.7-9.4ZM794.4%2C451.2l-81.5-43.1-1%2C1.9%2C81.5%2C43.1%2C1-1.9ZM681%2C515.1l91.8%2C8.6.2-2.1-91.8-8.6-.2%2C2.1ZM780.4%2C325.1l58.9%2C71%2C1.6-1.4-58.9-71-1.6%2C1.4ZM823.9%2C450.1l76.6%2C51.3%2C1.2-1.8-76.6-51.3-1.2%2C1.8ZM921.6%2C480.4l-51-76.8-1.8%2C1.2%2C51%2C76.8%2C1.8-1.2ZM843.9%2C425.4l65.2%2C65.2%2C1.5-1.5-65.2-65.2-1.5%2C1.5ZM894.9%2C568.1l-.8-2-85.2%2C35.2.8%2C2%2C85.2-35.2ZM1290.4%2C760.2l-76.6-51.3-1.2%2C1.8%2C76.6%2C51.3%2C1.2-1.8ZM890.7%2C554.8l-.4-2.1-90.4%2C17.9.4%2C2.1%2C90.4-17.9ZM890.7%2C525l-90.4-18.2-.4%2C2.1%2C90.4%2C18.2.4-2.1ZM1239%2C564.9l-91.8-8.6-.2%2C2.1%2C91.8%2C8.6.2-2.1ZM1208.1%2C670.1l-81.5-43.1-1%2C1.9%2C81.5%2C43.1%2C1-1.9ZM1124.9%2C450l1%2C1.9%2C81.2-43.7-1-1.9-81.2%2C43.7ZM1025.1%2C511.9l.8%2C2%2C85.2-35.2-.8-2-85.2%2C35.2ZM1228.6%2C619.5l-88.3-26.5-.6%2C2%2C88.3%2C26.5.6-2ZM1105.3%2C420.8l71-58.9-1.4-1.6-71%2C58.9%2C1.4%2C1.6ZM1174.8%2C323.6l1.5%2C1.5%2C65.2-65.2-1.5-1.5-65.2%2C65.2ZM780.8%2C596.3l-.6-2-88.1%2C27.1.6%2C2%2C88.1-27.1ZM1238.7%2C512.5l-.2-2.1-91.7%2C9.4.2%2C2.1%2C91.7-9.4ZM1363.5%2C416.8l88.1-27.1-.6-2-88.1%2C27.1.6%2C2ZM1241.5%2C820.1l-65.2-65.2-1.5%2C1.5%2C65.2%2C65.2%2C1.5-1.5ZM1379.8%2C498l91.7-9.4-.2-2.1-91.7%2C9.4.2%2C2.1ZM1139.2%2C483.7l.6%2C2%2C88.1-27.1-.6-2-88.1%2C27.1ZM1213.3%2C370.3l1.2%2C1.8%2C76.8-51.1-1.2-1.8-76.8%2C51.1ZM1349.7%2C464.1l-.4-2.1-90.4%2C17.9.4%2C2.1%2C90.4-17.9ZM1241.4%2C422.6l.8%2C2%2C85.2-35.2-.8-2-85.2%2C35.2ZM1332%2C340.9l81.2-43.7-1-1.9-81.2%2C43.7%2C1%2C1.9ZM1051.2%2C675.3l-51-76.8-1.8%2C1.2%2C51%2C76.8%2C1.8-1.2ZM986.2%2C474.1l2%2C.8%2C35.4-85.2-2-.8-35.4%2C85.2ZM1076.1%2C654.6l-65.2-65.2-1.5%2C1.5%2C65.2%2C65.2%2C1.5-1.5ZM1021.3%2C691.2l2-.8-35.2-85.2-2%2C.8%2C35.2%2C85.2ZM1096.1%2C629.9l-76.6-51.3-1.2%2C1.8%2C76.6%2C51.3%2C1.2-1.8ZM1177.9%2C716l-71.5-58.2-1.3%2C1.6%2C71.5%2C58.2%2C1.3-1.6ZM1139.6%2C754.9l-58.9-71-1.6%2C1.4%2C58.9%2C71%2C1.6-1.4ZM1077.8%2C393.6l1.6%2C1.3%2C58.2-71.5-1.6-1.3-58.2%2C71.5ZM998.6%2C480.5l1.8%2C1.2%2C51.3-76.6-1.8-1.2-51.3%2C76.6ZM1110.2%2C603.6l.8-2-85.1-35.4-.8%2C2%2C85.1%2C35.4ZM1123.1%2C538.9h-92.2v2.1h92.2v-2.1ZM1120.1%2C571.2l-90.4-18.2-.4%2C2.1%2C90.4%2C18.2.4-2.1ZM1009.4%2C489.1l1.5%2C1.5%2C65.2-65.2-1.5-1.5-65.2%2C65.2ZM1120.2%2C509.4l-.4-2.1-90.4%2C17.9.4%2C2.1%2C90.4-17.9ZM1019.6%2C501.6l76.8-51.1-1.2-1.8-76.8%2C51.1%2C1.2%2C1.8ZM987%2C261.1l-2.1-.2-8.5%2C91.8%2C2.1.2%2C8.5-91.8ZM634.6%2C808.6l-71%2C58.9%2C1.4%2C1.6%2C71-58.9-1.4-1.6ZM926.8%2C699.7l2.1.4%2C18.2-90.4-2.1-.4-18.2%2C90.4ZM911.3%2C1051.9l2.1.2%2C8.5-91.8-2.1-.2-8.5%2C91.8ZM958.9%2C937.2h2.1v-92.2h-2.1v92.2ZM958.9%2C703.1h2.1v-92.2h-2.1v92.2ZM927.4%2C380.2l17.9%2C90.5%2C2.1-.4-17.9-90.5-2.1.4ZM878.5%2C808l2%2C.6%2C26.5-88.3-2-.6-26.5%2C88.3ZM828.1%2C787.1l1.9%2C1%2C43.1-81.5-1.9-1-43.1%2C81.5ZM718.7%2C994l1.9%2C1%2C43.1-81.5-1.9-1-43.1%2C81.5ZM634.6%2C938.1l1.6%2C1.3%2C58.2-71.5-1.6-1.3-58.2%2C71.5ZM738.1%2C869.4l1.8%2C1.2%2C51.3-76.6-1.8-1.2-51.3%2C76.6ZM880.6%2C929.2l2.1.4%2C18.2-90.4-2.1-.4-18.2%2C90.4ZM811.2%2C1032.2l2%2C.6%2C26.5-88.3-2-.6-26.5%2C88.3ZM958.9%2C469.1h2.1v-92.2h-2.1v92.2ZM806.7%2C906.4l2%2C.8%2C35.4-85.2-2-.8-35.4%2C85.2ZM933%2C818.9l2.1.2%2C8.5-91.8-2.1-.2-8.5%2C91.8ZM1228.5%2C865.5l58.9%2C71%2C1.6-1.4-58.9-71-1.6%2C1.4ZM1159%2C912.1l43.7%2C81.2%2C1.9-1-43.7-81.2-1.9%2C1ZM1180.7%2C870.2l-51-76.8-1.8%2C1.2%2C51%2C76.8%2C1.8-1.2ZM1075.4%2C822.3l35.2%2C85.2%2C2-.8-35.2-85.2-2%2C.8ZM1363.8%2C662.3l88.3%2C26.5.6-2-88.3-26.5-.6%2C2ZM1286.5%2C807.2l71.5%2C58.2%2C1.3-1.6-71.5-58.2-1.3%2C1.6ZM795.1%2C630l-1-1.9-81.2%2C43.7%2C1%2C1.9%2C81.2-43.7ZM972.7%2C609.8l17.9%2C90.5%2C2.1-.4-17.9-90.5-2.1.4ZM958.9%2C235h2.1v-92.2h-2.1v92.2ZM1002%2C959.9l9.4%2C91.7%2C2.1-.2-9.4-91.7-2.1.2ZM978.1%2C727.1l9.4%2C91.7%2C2.1-.2-9.4-91.7-2.1.2ZM1083.2%2C943.6l27.1%2C88.1%2C2-.6-27.1-88.1-2%2C.6ZM1018%2C839.4l17.9%2C90.5%2C2.1-.4-17.9-90.5-2.1.4ZM1093.7%2C786.2l-43.7-81.2-1.9%2C1%2C43.7%2C81.2%2C1.9-1ZM1014.3%2C719.9l27.1%2C88.1%2C2-.6-27.1-88.1-2%2C.6ZM1332.4%2C738.3l81.5%2C43.1%2C1-1.9-81.5-43.1-1%2C1.9ZM814.7%2C659.2l-71%2C58.9%2C1.4%2C1.6%2C71-58.9-1.4-1.6ZM842.2%2C686.4l-1.6-1.3-58.2%2C71.5%2C1.6%2C1.3%2C58.2-71.5ZM745.2%2C756.4l-1.5-1.5-65.2%2C65.2%2C1.5%2C1.5%2C65.2-65.2ZM933.8%2C605.9l-2-.8-35.4%2C85.2%2C2%2C.8%2C35.4-85.2ZM921.4%2C599.5l-1.8-1.2-51.3%2C76.6%2C1.8%2C1.2%2C51.3-76.6ZM900.4%2C578.4l-76.8%2C51.1%2C1.2%2C1.8%2C76.8-51.1-1.2-1.8ZM706.7%2C709.7l-1.2-1.8-76.8%2C51.1%2C1.2%2C1.8%2C76.8-51.1ZM910.6%2C590.9l-1.5-1.5-65.2%2C65.2%2C1.5%2C1.5%2C65.2-65.2ZM592.9%2C388.6l85.1%2C35.4.8-2-85.1-35.4-.8%2C2ZM588%2C739.1l-81.2%2C43.7%2C1%2C1.9%2C81.2-43.7-1-1.9ZM678.5%2C259.9l65.2%2C65.2%2C1.5-1.5-65.2-65.2-1.5%2C1.5ZM661.1%2C600.1l-.4-2.1-90.4%2C17.9.4%2C2.1%2C90.4-17.9ZM678.6%2C657.4l-.8-2-85.2%2C35.2.8%2C2%2C85.2-35.2ZM562.9%2C541.1h92.2v-2.1h-92.2v2.1ZM570.5%2C462.6l90.4%2C18.2.4-2.1-90.4-18.2-.4%2C2.1ZM629.6%2C319.8l76.6%2C51.3%2C1.2-1.8-76.6-51.3-1.2%2C1.8ZM587.6%2C341.7l-81.5-43.1-1%2C1.9%2C81.5%2C43.1%2C1-1.9ZM691.5%2C214.5l-58.9-71-1.6%2C1.4%2C58.9%2C71%2C1.6-1.4ZM556.2%2C417.7l-88.3-26.5-.6%2C2%2C88.3%2C26.5.6-2ZM633.5%2C272.8l-71.5-58.2-1.3%2C1.6%2C71.5%2C58.2%2C1.3-1.6ZM556.5%2C663.2l-88.1%2C27.1.6%2C2%2C88.1-27.1-.6-2ZM540.2%2C582l-91.7%2C9.4.2%2C2.1%2C91.7-9.4-.2-2.1ZM540.1%2C499.8l-91.8-8.6-.2%2C2.1%2C91.8%2C8.6.2-2.1ZM902%2C240.6l-17.9-90.5-2.1.4%2C17.9%2C90.5%2C2.1-.4ZM905.7%2C360.1l-27.1-88.1-2%2C.6%2C27.1%2C88.1%2C2-.6ZM898.7%2C388.8l-2%2C.8%2C35.2%2C85.2%2C2-.8-35.2-85.2ZM826.3%2C293.8l43.7%2C81.2%2C1.9-1-43.7-81.2-1.9%2C1ZM836.8%2C136.4l-27.1-88.1-2%2C.6%2C27.1%2C88.1%2C2-.6ZM739.3%2C209.8l51%2C76.8%2C1.8-1.2-51-76.8-1.8%2C1.2ZM761%2C167.9l-43.7-81.2-1.9%2C1%2C43.7%2C81.2%2C1.9-1ZM844.6%2C257.7l-35.2-85.2-2%2C.8%2C35.2%2C85.2%2C2-.8Z%22/%3E%3C/svg%3E")
+    center/contain no-repeat;
+  opacity: 0.32;
+  pointer-events: none;
+  animation: spin 120s linear infinite;
+}
+
+/* ---- hero da home: video ------------------------------------------------ */
+
+.hero-home {
+  position: relative;
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* a altura do video desconta o header; svh (nao vh) para a barra do
+     browser no mobile nao causar salto */
+  --vid: max(420px, calc(100svh - var(--hdr)));
+}
+
+@media (min-width: 901px) {
+  .hero-home {
+    min-height: calc(100vh + 120px);
+  }
+  .hero-video,
+  .home-shade {
+    inset: 0 0 auto 0;
+    height: var(--vid);
+  }
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.home-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 46%,
+      rgba(0, 0, 0, 0.06) 0%,
+      rgba(0, 0, 0, 0.42) 62%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.66) 0%,
+      rgba(0, 0, 0, 0) 28%,
+      rgba(0, 0, 0, 0) 54%,
+      rgba(0, 0, 0, 0.86) 100%
+    );
+}
+
+.hero-home .hero-grid {
+  z-index: 0;
+  opacity: 0.14;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.home-in {
+  position: static;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  gap: 0;
+}
+
+.hero .home-kicker {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 3.1vw, 2.9rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #fff;
+  white-space: nowrap;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.6);
+}
+
+.home-low {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero .home-low .home-sign {
+  margin: 0 auto 22px;
+  padding-top: 0;
+  max-width: 1120px;
+  font-size: 1.16rem;
+  line-height: 1.6;
+  color: #fff;
+  font-weight: 500;
+  text-shadow:
+    0 0 6px rgba(0, 0, 0, 0.95),
+    0 1px 18px rgba(0, 0, 0, 0.95);
+}
+
+@media (max-width: 900px) {
+  .hero-home {
+    min-height: auto;
+  }
+  .hero .home-kicker {
+    white-space: normal;
+  }
+  .home-in {
+    padding-top: 20px;
+  }
+  .hero .home-low .home-sign {
+    margin-top: 28px;
+    font-size: 1.02rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-home {
+    --vid: max(330px, calc(100svh - var(--hdr) - 90px));
+    display: block;
+  }
+  .hero-video,
+  .home-shade {
+    inset: 0 0 auto 0;
+    height: var(--vid);
+  }
+  .home-in {
+    height: var(--vid);
+    box-sizing: border-box;
+  }
+  .home-low {
+    position: static;
+  }
+  /* no mobile a assinatura cola no pe do video.
+     Sem `max-width` aqui: o original declara `none`, mas a regra que vem
+     depois (fora de media query) repoe 1120px e vence. */
+  .hero .home-low .home-sign {
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    right: 20px;
+    top: var(--vid);
+    transform: translateY(-100%);
+    margin: 0;
+    padding: 0 0 16px;
+  }
+  .hero-home .entries {
+    margin-top: -1px;
+    padding-top: 0;
+  }
+  /* reveal desligado aqui: os cards ja entram visiveis */
+  .js .entries .entry.rv {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---- os 3 cards de entrada --------------------------------------------- */
+
+.entries {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  padding-bottom: 48px;
+}
+
+@media (min-width: 901px) {
+  .entries {
+    padding-bottom: 40px;
+  }
+}
+
+/* O wrapper externo carrega a sombra; o chanfro fica no .entry-card interno.
+   clip-path corta box-shadow, por isso os dois elementos. */
+.entry {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  filter: drop-shadow(0 0 16px rgba(192, 255, 0, 0.3)) drop-shadow(0 18px 34px rgba(0, 0, 0, 0.7));
+  transition:
+    filter 0.3s ease,
+    transform 0.3s ease;
+}
+
+.entry:hover {
+  filter: drop-shadow(0 0 26px rgba(192, 255, 0, 0.55))
+    drop-shadow(0 22px 40px rgba(0, 0, 0, 0.75));
+  transform: translateY(-4px);
+}
+
+.js .entry.rv {
+  transition:
+    filter 0.3s ease,
+    transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1),
+    opacity 0.6s ease;
+}
+
+.js .entry.rv.in:hover {
+  transform: translateY(-4px);
+}
+
+.entry-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--s950);
+  border: 1px solid var(--green-soft);
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+  overflow: hidden;
+}
+
+/* o titulo vem ANTES da imagem, com a borda verde embaixo */
+.entry-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 22px;
+  border-bottom: 2px solid var(--green);
+  background: var(--s950);
+}
+
+.entry-t {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+}
+
+/* so a seta aparece: o texto foi zerado no original */
+.entry-go {
+  font-family: var(--display);
+  font-size: 0;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.entry-go .arr {
+  font-size: 1.25rem;
+}
+
+.entry-img {
+  display: block;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.entry-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-width: none;
+  transition:
+    transform 0.6s ease,
+    filter 0.6s ease;
+  filter: saturate(0.85) brightness(0.85);
+}
+
+.entry:hover .entry-img img {
+  transform: scale(1.05);
+  filter: none;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .entries {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .entry-t {
+    font-size: 1.02rem;
+  }
+  .entry-b {
+    padding: 14px 14px;
+  }
+}
+
+/* So a contagem de colunas muda no mobile: o  e o
+    que o original declara aqui sao anulados pelo patch
+   H07, que redeclara 22px/48px sem media query mais abaixo no arquivo. */
+@media (max-width: 600px) {
+  .entries {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- hero padrao no mobile ---------------------------------------------- */
+
+@media (max-width: 900px) {
+  .hero-bg {
+    left: 0;
+    width: 100%;
+    height: 340px;
+    bottom: auto;
+  }
+  .hero-shade {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0,
+      rgba(0, 0, 0, 0.5) 240px,
+      #000 340px
+    );
+  }
+  .hero-in {
+    min-height: 0;
+    padding-top: 220px;
+    padding-bottom: 48px;
+  }
+  .hero-radial {
+    width: 420px;
+    height: 420px;
+    right: -160px;
+    top: -120px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .hero-bg {
+    height: 420px;
+  }
+  .hero-shade {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0,
+      rgba(0, 0, 0, 0.5) 300px,
+      #000 420px
+    );
+  }
+  .hero-in {
+    padding-top: 290px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.05rem;
+    line-height: 1.06;
+  }
+  .solution {
+    font-size: 1.1rem;
+  }
+  .hero .eyebrow {
+    display: block;
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+  }
+  .hero .eyebrow::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+}
+
+/* o "T" da marca, sangrando no canto inferior direito do hero */
+.hero-t {
+  position: absolute;
+  right: -60px;
+  bottom: -40px;
+  width: 420px;
+  height: auto;
+  color: var(--green);
+  opacity: 0.55;
+  pointer-events: none;
+  display: block;
+}
+
+.hero.hero-compact .hero-t {
+  width: 260px;
+  opacity: 0.35;
+  bottom: -80px;
+}
+
+@media (max-width: 900px) {
+  .hero-t {
+    width: 240px;
+    right: -40px;
+    bottom: auto;
+    top: 40px;
+    opacity: 0.35;
+  }
+}

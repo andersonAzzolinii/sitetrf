@@ -1,0 +1,83 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1600" height="900" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="800" y="90" text-anchor="middle" font-size="34" font-weight="700" fill="#121411">End-of-Line Flow</text>
+  <text x="800" y="130" text-anchor="middle" font-size="20" fill="#575b52">One integrated line, from case forming to a finished pallet</text>
+
+  <!-- connecting spine -->
+  <line x1="120" y1="470" x2="1480" y2="470" stroke="#d8dbd2" stroke-width="4"/>
+
+  <!-- 5 blocks -->
+  <!-- Block template: x centers at 200,560,920,1280,1480? recompute even spacing across 5 blocks -->
+
+  <!-- Block 1: Case Forming -->
+  <g>
+    <rect x="90" y="360" width="220" height="220" rx="6" fill="#ffffff" stroke="#121411" stroke-width="3"/>
+    <rect x="90" y="360" width="220" height="10" fill="#C0FF00"/>
+    <text x="200" y="450" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Case</text>
+    <text x="200" y="480" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Forming</text>
+    <text x="200" y="520" text-anchor="middle" font-size="15" fill="#575b52">Erect the case</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g>
+    <line x1="320" y1="470" x2="380" y2="470" stroke="#121411" stroke-width="3"/>
+    <polygon points="380,460 398,470 380,480" fill="#121411"/>
+  </g>
+
+  <!-- Block 2: Case Packing -->
+  <g>
+    <rect x="408" y="360" width="220" height="220" rx="6" fill="#ffffff" stroke="#121411" stroke-width="3"/>
+    <rect x="408" y="360" width="220" height="10" fill="#C0FF00"/>
+    <text x="518" y="450" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Case</text>
+    <text x="518" y="480" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Packing</text>
+    <text x="518" y="520" text-anchor="middle" font-size="15" fill="#575b52">Load the product</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g>
+    <line x1="638" y1="470" x2="698" y2="470" stroke="#121411" stroke-width="3"/>
+    <polygon points="698,460 716,470 698,480" fill="#121411"/>
+  </g>
+
+  <!-- Block 3: Case Sealing -->
+  <g>
+    <rect x="726" y="360" width="220" height="220" rx="6" fill="#ffffff" stroke="#121411" stroke-width="3"/>
+    <rect x="726" y="360" width="220" height="10" fill="#C0FF00"/>
+    <text x="836" y="450" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Case</text>
+    <text x="836" y="480" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Sealing</text>
+    <text x="836" y="520" text-anchor="middle" font-size="15" fill="#575b52">Close the case</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g>
+    <line x1="956" y1="470" x2="1016" y2="470" stroke="#121411" stroke-width="3"/>
+    <polygon points="1016,460 1034,470 1016,480" fill="#121411"/>
+  </g>
+
+  <!-- Block 4: Conveying -->
+  <g>
+    <rect x="1044" y="360" width="220" height="220" rx="6" fill="#ffffff" stroke="#121411" stroke-width="3"/>
+    <rect x="1044" y="360" width="220" height="10" fill="#C0FF00"/>
+    <text x="1154" y="465" text-anchor="middle" font-size="24" font-weight="700" fill="#121411">Conveying</text>
+    <text x="1154" y="520" text-anchor="middle" font-size="15" fill="#575b52">Move, route, buffer</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <g>
+    <line x1="1274" y1="470" x2="1334" y2="470" stroke="#121411" stroke-width="3"/>
+    <polygon points="1334,460 1352,470 1334,480" fill="#121411"/>
+  </g>
+
+  <!-- Block 5: Palletizing -->
+  <g>
+    <rect x="1362" y="360" width="220" height="220" rx="6" fill="#121411" stroke="#121411" stroke-width="3"/>
+    <rect x="1362" y="360" width="220" height="10" fill="#C0FF00"/>
+    <text x="1472" y="465" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">Palletizing</text>
+    <text x="1472" y="520" text-anchor="middle" font-size="15" fill="#C0C0C0">Finished pallet</text>
+  </g>
+
+  <!-- footer note -->
+  <text x="800" y="640" text-anchor="middle" font-size="16" fill="#575b52">One partner, one design, one point of accountability for the entire line</text>
+</svg>

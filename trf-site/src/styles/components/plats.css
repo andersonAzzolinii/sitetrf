@@ -1,0 +1,577 @@
+/* ---------------------------------------------------------------------------
+   Plataformas, parede de logos, split (texto + imagem) e a jornada em 5 fases.
+   --------------------------------------------------------------------------- */
+
+/* ---- as 9 plataformas em 3 colunas -------------------------------------- */
+
+.sec.plats {
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+
+.sec.plats .hero-grid {
+  opacity: 0.25;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent 70%);
+  mask-image: linear-gradient(180deg, #000, transparent 70%);
+}
+
+.sec.plats .sec-head p {
+  color: var(--on-dark);
+}
+
+.plat-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  position: relative;
+  align-items: start;
+}
+
+h3.plat-h {
+  margin: 0 0 16px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+h3.plat-h a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--green);
+}
+
+h3.plat-h a:hover {
+  color: var(--green);
+}
+
+.plat-n-ct {
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+ul.plat-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  position: relative;
+}
+
+ul.plat-grid li {
+  display: flex;
+  margin: 0;
+}
+
+a.plat {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  background: var(--s960);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  transition:
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+a.plat:hover {
+  border-color: var(--green);
+  transform: translateY(-2px);
+}
+
+/* a foto da plataforma fica sobre branco */
+.plat-img {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+  padding: 6px;
+}
+
+.plat-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #fff;
+  aspect-ratio: 1/1;
+  transition: transform 0.6s ease;
+}
+
+a.plat:hover .plat-img img {
+  transform: scale(1.06);
+}
+
+.plat-b {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 14px 16px;
+}
+
+.plat-k {
+  font-family: var(--display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.plat-n {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.plat-n .pn {
+  color: #fff;
+}
+
+.plat-n .pn b {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.plat-p {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.72);
+  flex: 1;
+  margin-top: 2px;
+}
+
+.plat-go {
+  margin-top: 6px;
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+.plat-go .pn {
+  color: #fff;
+  font-weight: 600;
+}
+
+.plat-go .pn b {
+  color: var(--green);
+}
+
+.plat-cta {
+  margin-top: 36px;
+}
+
+@media (max-width: 1100px) {
+  .plat-cols {
+    grid-template-columns: 1fr;
+  }
+  ul.plat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  ul.plat-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  a.plat {
+    grid-template-columns: 108px 1fr;
+  }
+}
+
+/* ---- parede de logos ---------------------------------------------------- */
+
+.sec.partners .prose {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 20px 64px;
+  align-items: end;
+}
+
+.sec.partners .prose > h2 {
+  margin: 0;
+}
+
+.sec.partners .prose > p {
+  margin: 0;
+  max-width: none;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.sec.partners ul.logos {
+  grid-column: 1 / -1;
+}
+
+ul.logos {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 14px;
+  max-width: none;
+}
+
+ul.logos li {
+  margin: 0;
+  padding: 18px;
+  background: #fff;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  transition: transform 0.25s ease;
+}
+
+ul.logos li::before,
+ul.logos li::after {
+  display: none;
+}
+
+ul.logos li:hover {
+  transform: translateY(-3px);
+}
+
+ul.logos li:has(a):hover {
+  box-shadow: inset 0 0 0 2px var(--green);
+}
+
+ul.logos li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+ul.logos img {
+  max-width: 100%;
+  max-height: 46px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0;
+  clip-path: none;
+}
+
+.sec.light ul.logos li {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+ul.logos.seals li {
+  height: 132px;
+  padding: 14px;
+}
+
+ul.logos.seals img,
+ul.logos.certs img {
+  max-height: 92px;
+  max-width: 82%;
+  object-fit: contain;
+}
+
+/* Duas regras de proposito, porque no original a cascata deixa esta etiqueta
+   num estado meio-termo que vale reproduzir:
+   - `margin` precisa vencer `.sec.partners .prose > p {margin:0}`  -> qualificado
+   - `font-size` NAO deve vencer: o 1.05rem daquela mesma regra prevalece
+     sobre o .74rem declarado, entao o tamanho efetivo e 16.8px
+   - `color` tambem nao: `.sec.light .prose p {color:#1c1c1c}` prevalece */
+.sec.partners .prose > p.certs-h {
+  grid-column: 1 / -1;
+  margin: 34px 0 0;
+}
+
+p.certs-h {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+ul.logos.certs {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 14px;
+}
+
+ul.logos.certs li {
+  height: 110px;
+}
+
+@media (max-width: 1100px) {
+  ul.logos,
+  ul.logos.certs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .sec.partners .prose {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  ul.logos,
+  ul.logos.certs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  ul.logos li {
+    height: 88px;
+  }
+  ul.logos.seals li {
+    height: 112px;
+  }
+}
+
+/* ---- split: texto + imagem --------------------------------------------- */
+
+.sec.split .split-in {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.sec.split.auto .split-in {
+  align-items: start;
+}
+
+.sec.split.auto .split-img {
+  position: sticky;
+  top: var(--sticky-top);
+}
+
+.split-img {
+  position: relative;
+}
+
+.split-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/11;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%);
+}
+
+/* a cantoneira verde em L atras da imagem */
+.split-img::after {
+  content: '';
+  position: absolute;
+  left: -14px;
+  bottom: -14px;
+  width: 40%;
+  height: 40%;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  pointer-events: none;
+}
+
+/* "fp": a imagem e um diagrama — contain sobre branco, sem chanfro */
+.split-img.fp img {
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  background: #fff;
+  clip-path: none;
+}
+
+.split-img.on-dark img,
+.sec.light .split-img.on-dark img {
+  object-fit: contain;
+  background: #000;
+}
+
+.sec.split.inl .split-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .sec.split .split-in {
+    grid-template-columns: 1fr;
+  }
+  .sec.split.auto .split-img {
+    position: static;
+  }
+  /* o max-height vale tambem para a variante .fp: no original a regra do .fp
+     so sobrescreve object-fit e aspect-ratio, nunca o max-height */
+  .split-img img {
+    max-height: 480px;
+    object-fit: cover;
+  }
+  .split-img.fp img {
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  .split-in {
+    min-width: 0;
+  }
+}
+
+/* ---- jornada em 5 fases -------------------------------------------------- */
+
+/* O padding vai numa regra propria, qualificada, porque
+   `.prose ol:not(.process)` (0,2,1) injeta `padding-left:1.3em`.
+   O RESTO fica em `ol.journey` simples (0,1,1) de proposito: as media
+   queries no fim deste arquivo tambem usam `ol.journey`, e se o bloco base
+   fosse qualificado elas perderiam a cascata e a grade travaria em 5 colunas. */
+.prose ol.journey {
+  padding: 0;
+}
+
+ol.journey {
+  list-style: none;
+  margin: 44px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: none;
+  counter-reset: none;
+}
+
+ol.journey > li {
+  position: relative;
+  margin: 0;
+  padding: 26px 20px 24px;
+  background: #000;
+  color: #fff;
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+  border-top: 2px solid var(--green);
+}
+
+.sec.dark ol.journey > li {
+  background: var(--s800);
+}
+
+.jn {
+  display: block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--green);
+  margin-bottom: 12px;
+}
+
+.sec .prose p.jt {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.08rem;
+  line-height: 1.25;
+  color: #fff;
+  margin: 0 0 14px;
+}
+
+ul.jl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+.sec .prose ul.jl li,
+ul.jl li {
+  position: relative;
+  padding: 0 0 0 16px;
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+ul.jl li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+}
+
+@media (max-width: 1200px) {
+  ol.journey {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  ol.journey {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  ol.journey {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* o segundo wrap da variante .tbl, com a tabela abaixo do split */
+.sec.split .tbl-tail {
+  margin-top: 8px;
+}
+
+/* As fotos de plataforma sao recortes sobre fundo branco: nunca cortar.
+   No original e uma regra por src, que vale em qualquer contexto. */
+img[src*='trf-w-'] {
+  object-fit: contain;
+  background: #fff;
+}
+
+/* Diagramas em SVG mantem a proporcao propria: o aspect-ratio fixo das
+   variantes (4/3 no .inl, 16/11 no padrao) distorceria o desenho.
+   Seletor qualificado para vencer `.sec.split.inl .split-img img` acima —
+   no original isto era !important.
+   NOTA: um SVG sem width/height intrinsecos com aspect-ratio:auto colapsa
+   para altura 0 abaixo de 1100px. O comportamento e do site original e esta
+   reproduzido de proposito; se for corrigir, e aqui. */
+.sec.split .split-img img[src$='.svg'] {
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #fff;
+}
+
+/* a variante .inl empilha imagem e legenda numa coluna propria */
+.sec.split.inl .split-col {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  position: sticky;
+  top: var(--sticky-top);
+}
+
+@media (max-width: 1100px) {
+  .sec.split.inl .split-col {
+    position: static;
+  }
+}
