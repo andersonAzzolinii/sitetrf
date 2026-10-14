@@ -28,5 +28,6 @@
 @import './components/plats.css';
 @import './components/internal.css';
 @import './components/roi.css';
+@import './components/machine-tour.css';
 
 @import './05-chrome.css';

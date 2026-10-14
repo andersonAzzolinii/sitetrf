@@ -1,0 +1,342 @@
+/* ---------------------------------------------------------------------------
+   /machine-tour/ — tour 3D guiado pelo scroll.
+
+   Tres camadas empilhadas dentro de main.mt:
+     .mt-stage  canvas 3D, sticky em 100vh (margin-bottom: -100vh)
+     .mt-ui     trilho de etapas, HUD e loader, sticky por cima (sem cliques
+                fora dos botoes)
+     .mt-tour   as secoes que rolam; cada uma e uma parada da camera
+   Sticky em vez de fixed: o palco sai de cena junto com o tour e o footer
+   aparece normalmente depois dele.
+   --------------------------------------------------------------------------- */
+
+main.mt {
+  position: relative;
+  background: var(--s950);
+  color: #fff;
+}
+
+.mt-stage,
+.mt-ui {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  margin-bottom: -100vh;
+  margin-bottom: -100svh;
+}
+.mt-stage {
+  z-index: 0;
+}
+.mt-stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mt-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(120% 90% at 70% 50%, transparent 45%, rgba(5, 5, 5, 0.85) 100%),
+    linear-gradient(90deg, rgba(5, 5, 5, 0.75) 0, rgba(5, 5, 5, 0) 46%);
+}
+.mt-ui {
+  z-index: 3;
+  pointer-events: none;
+}
+.mt-tour {
+  position: relative;
+  z-index: 2;
+  padding-inline: var(--gutter);
+  pointer-events: none;
+}
+.mt-tour a,
+.mt-tour button,
+.mt-card {
+  pointer-events: auto;
+}
+@media (min-width: 1024px) {
+  .mt-tour {
+    padding-left: calc(var(--gutter) + 16px);
+  }
+}
+
+/* paradas */
+.mt-stop {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-block: 12vh;
+}
+.mt-stop.mt-open {
+  min-height: calc(100vh - var(--hdr));
+  align-items: flex-end;
+  padding-block: 60px 10vh;
+}
+
+.mt-hero {
+  max-width: 660px;
+  display: grid;
+  gap: 22px;
+}
+.mt-hero h1 {
+  font-family: var(--display);
+  font-size: clamp(2.6rem, 6.4vw, 5.4rem);
+  line-height: 1.02;
+  margin: 0;
+  text-wrap: balance;
+}
+.mt-lead {
+  font-size: 1.12rem;
+  color: var(--on-dark);
+  max-width: 56ch;
+  margin: 0;
+}
+
+.mt-kicker {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+.mt-kicker b {
+  color: #fff;
+  margin-right: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.mt-specs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  max-width: 560px;
+  background: var(--line-dark);
+  border: 1px solid var(--line-dark);
+}
+.mt-specs div {
+  background: rgba(10, 10, 10, 0.85);
+  padding: 14px 14px 12px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2px;
+  min-width: 0;
+}
+.mt-specs dt {
+  font-size: 0.75rem;
+  color: var(--on-dark);
+}
+.mt-specs dd {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.mt-specs small {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--on-dark);
+  margin-left: 3px;
+}
+.mt-hint {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--on-dark);
+}
+.mt-hint::before {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--green);
+}
+
+.mt-card {
+  max-width: 440px;
+  min-width: 0;
+  display: grid;
+  gap: 12px;
+  padding: 26px 28px 28px;
+  background: rgba(20, 20, 20, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--line-dark);
+  clip-path: polygon(0 0, calc(100% - var(--ch-md)) 0, 100% var(--ch-md), 100% 100%, 0 100%);
+}
+.mt-card h2 {
+  font-family: var(--display);
+  font-size: clamp(1.7rem, 3.2vw, 2.4rem);
+  line-height: 1.05;
+  margin: 0;
+  text-wrap: balance;
+}
+.mt-card > p:not(.mt-kicker) {
+  margin: 0;
+  color: var(--on-dark);
+}
+.mt-card .btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+.mt-facts {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line-dark);
+}
+.mt-facts li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line-dark);
+  font-size: 0.88rem;
+}
+.mt-facts span {
+  color: var(--on-dark);
+}
+.mt-facts b {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* trilho de etapas */
+.mt-rail {
+  position: absolute;
+  right: var(--gutter);
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  gap: 4px;
+  pointer-events: auto;
+}
+.mt-rail button {
+  all: unset;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  align-items: center;
+  justify-items: end;
+  gap: 10px;
+  padding: 3px 0;
+}
+.mt-rail span {
+  font-size: 0.75rem;
+  color: var(--on-dark);
+  opacity: 0;
+  transform: translateX(6px);
+  transition: opacity 0.25s, transform 0.25s;
+}
+.mt-rail i {
+  font-style: normal;
+  font-family: var(--display);
+  font-size: 0.7rem;
+  color: var(--on-dark);
+  width: 24px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  border-right: 2px solid var(--line-dark);
+  padding-right: 6px;
+  transition: color 0.25s, border-color 0.25s;
+}
+.mt-rail:hover span,
+.mt-rail button.on span {
+  opacity: 1;
+  transform: none;
+}
+.mt-rail button.on span {
+  color: #fff;
+}
+.mt-rail button.on i {
+  color: var(--green);
+  border-color: var(--green);
+}
+.mt-rail button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+/* leitura da camera em mm */
+.mt-hud {
+  position: absolute;
+  left: var(--gutter);
+  bottom: 18px;
+  display: flex;
+  gap: 14px;
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--on-dark);
+  font-variant-numeric: tabular-nums;
+}
+.mt-hud b {
+  color: var(--green);
+  font-weight: 500;
+}
+@media (min-width: 1024px) {
+  .mt-hud {
+    left: calc(var(--gutter) + 16px);
+  }
+}
+
+.mt-loader {
+  position: absolute;
+  right: var(--gutter);
+  bottom: 18px;
+  width: 200px;
+  display: grid;
+  gap: 6px;
+  font-size: 0.72rem;
+  color: var(--on-dark);
+}
+.mt-loader div {
+  height: 2px;
+  background: var(--line-dark);
+}
+.mt-loader i {
+  display: block;
+  height: 100%;
+  background: var(--green);
+  transition: width 0.2s;
+}
+.mt-err {
+  color: var(--err);
+}
+
+@media (max-width: 760px) {
+  .mt-rail,
+  .mt-hud {
+    display: none;
+  }
+  .mt-stop {
+    align-items: flex-end;
+    padding-block: 50vh 8vh;
+  }
+  .mt-stop.mt-open {
+    min-height: 100vh;
+    padding-block: 38vh 6vh;
+  }
+  .mt-hero {
+    gap: 16px;
+  }
+  .mt-card {
+    padding: 20px 20px 22px;
+  }
+  .mt-specs dd {
+    font-size: 1.2rem;
+  }
+  .mt-vignette {
+    background: linear-gradient(0deg, rgba(5, 5, 5, 0.9) 0, rgba(5, 5, 5, 0) 55%);
+  }
+}
