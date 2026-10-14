@@ -4,6 +4,7 @@ import Layout from './Layout';
 import StandardPage from './pages/StandardPage';
 import NotFound from './pages/NotFound';
 import KitchenSink from './pages/KitchenSink';
+import MachineTour from './pages/MachineTour';
 
 /**
  * As 84 rotas, montadas a partir dos dados.
@@ -24,6 +25,7 @@ export const routes: RouteRecord[] = [
           : { path: page.route.replace(/^\/|\/$/g, '') }),
         element: <StandardPage page={page} />,
       })),
+      { path: 'machine-tour', element: <MachineTour /> },
       { path: '_kitchen-sink', element: <KitchenSink /> },
       { path: '*', element: <NotFound /> },
     ],

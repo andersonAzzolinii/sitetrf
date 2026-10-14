@@ -114,3 +114,24 @@ precisaram de seletor qualificado:
 Tambem descoberto: no original, o `display:inline-block` de `.foot-event`
 nunca valeu — `.foot a { display:block }` sempre venceu. O port reproduz o
 comportamento efetivo (block), nao o declarado.
+
+## Tour 3D — `/machine-tour/`
+
+Passeio guiado pelo scroll pela fechadora ASM 10453224 (`src/pages/MachineTour.tsx` +
+`src/lib/machineTour.ts`). O three.js entra por import dinâmico, só no cliente e só nesta rota
+(chunk próprio de ~140 kB gzip); o texto dos cards sai no HTML do SSG.
+
+Modelo: `public/assets/media/machine-10453224.glb` (~5 MB, 381 mil triângulos), gerado do STEP
+do SolidWorks:
+
+```bash
+pip install cadquery-ocp trimesh numpy
+python scripts/step2glb.py 10453224.step machine.json 1.0     # -> machine.glb + bounds por subconjunto
+npx @gltf-transform/cli optimize machine.glb machine-10453224.glb \
+  --compress quantize --join false --flatten false --instance false --simplify-error 0.0006
+```
+
+Cada malha se chama `g{N}_{i}`, onde N é o subconjunto do STEP. O tour usa esses números para
+destacar, abrir (portas/painéis) e subir (cabeçote) as partes — se o STEP mudar de estrutura,
+revisar `SKIN`, `LIFT`, `TUNNEL` em `machineTour.ts` e os `focus` das paradas. Sem meshopt/Draco
+de propósito: quantização é nativa do GLTFLoader e dispensa decoder WASM.
